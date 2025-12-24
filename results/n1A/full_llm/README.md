@@ -9,7 +9,7 @@
   - Planet Wealth: $-346,033
 
 ### The Edge of Chaos
-![Edge of Chaos](edge_of_chaos.png)
+![Edge of Chaos](full_llm_edge_of_chaos.png)
 
 ## 2. Strategic Performance
 
@@ -84,13 +84,13 @@
 ## 4. System Dynamics
 
 ### Price Evolution
-![Price Evolution](price_evolution.png)
+![Price Evolution](full_llm_price_evolution.png)
 
 ### Survival Timeline
-![Survival Timeline](survival_timeline.png)
+![Survival Timeline](full_llm_survival_timeline.png)
 
 ### Strategy Divergence
-![Strategy Divergence](strategy_divergence.png)
+![Strategy Divergence](full_llm_strategy_divergence.png)
 
 ## 5. Cognitive Audit
 

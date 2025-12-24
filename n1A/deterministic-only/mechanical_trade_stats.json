@@ -1,0 +1,97 @@
+{
+  "hub": "Earth",
+  "hub_share": 29.646418857660922,
+  "total_trades": 1103,
+  "breakdown": [
+    {
+      "planet": "Venus",
+      "buys": 0,
+      "sells": 11,
+      "total": 11
+    },
+    {
+      "planet": "Mercury",
+      "buys": 0,
+      "sells": 20,
+      "total": 20
+    },
+    {
+      "planet": "Mars",
+      "buys": 0,
+      "sells": 28,
+      "total": 28
+    },
+    {
+      "planet": "Moon",
+      "buys": 0,
+      "sells": 30,
+      "total": 30
+    },
+    {
+      "planet": "Vesta",
+      "buys": 0,
+      "sells": 34,
+      "total": 34
+    },
+    {
+      "planet": "Psyche",
+      "buys": 0,
+      "sells": 36,
+      "total": 36
+    },
+    {
+      "planet": "Eros",
+      "buys": 0,
+      "sells": 37,
+      "total": 37
+    },
+    {
+      "planet": "Ceres",
+      "buys": 29,
+      "sells": 13,
+      "total": 42
+    },
+    {
+      "planet": "Pallas",
+      "buys": 0,
+      "sells": 45,
+      "total": 45
+    },
+    {
+      "planet": "Hygiea",
+      "buys": 0,
+      "sells": 46,
+      "total": 46
+    },
+    {
+      "planet": "Saturn",
+      "buys": 0,
+      "sells": 54,
+      "total": 54
+    },
+    {
+      "planet": "Uranus",
+      "buys": 0,
+      "sells": 61,
+      "total": 61
+    },
+    {
+      "planet": "Neptune",
+      "buys": 0,
+      "sells": 81,
+      "total": 81
+    },
+    {
+      "planet": "Jupiter",
+      "buys": 214,
+      "sells": 37,
+      "total": 251
+    },
+    {
+      "planet": "Earth",
+      "buys": 310,
+      "sells": 17,
+      "total": 327
+    }
+  ]
+}

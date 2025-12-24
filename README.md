@@ -13,7 +13,7 @@ It explores how intelligence, economics, and organisation evolve when every part
 Each release (*n0, n1, n2…*) adds new layers of cognitive capability — from reactive heuristics to LLM-driven reasoning, memory, and eventually collective intelligence.  
 Over time, CONSTELLATIOn becomes more than a technical project: it becomes a testbed for how complex systems organise themselves when intelligence is distributed, not centralised.
 
-(https://constellationproject.ai)
+[https://constellationproject.ai](https://constellationproject.ai/)
 
 ---
 

@@ -1,0 +1,322 @@
+{
+  "provenance": {
+    "galaxy": "constellation/config/stellar_neighborhood_interdependent.yaml",
+    "scenario": "constellation/config/scenario_interdependent.yaml",
+    "ticks": 1000,
+    "seeds": [
+      42,
+      7,
+      123,
+      2024,
+      99
+    ],
+    "frontier_members": [
+      "gj1061-hub",
+      "gj1061-b",
+      "gj1061-c",
+      "gj1061-d"
+    ]
+  },
+  "verdict_dependent": true,
+  "results": {
+    "baseline": {
+      "42": {
+        "frontier_deaths": [],
+        "food_delivered_into_frontier": 27051.9,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.9826,
+            "food_stock": 254.0,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.9503,
+            "food_stock": 454.5,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.9033,
+            "food_stock": 316.6,
+            "alive": true
+          },
+          "gj1061-d": {
+            "health": 0.9171,
+            "food_stock": 338.8,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 2
+      },
+      "7": {
+        "frontier_deaths": [],
+        "food_delivered_into_frontier": 17348.2,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.806,
+            "food_stock": 154.3,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.901,
+            "food_stock": 234.4,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.3951,
+            "food_stock": 49.6,
+            "alive": true
+          },
+          "gj1061-d": {
+            "health": 0.7691,
+            "food_stock": 99.2,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 4
+      },
+      "123": {
+        "frontier_deaths": [],
+        "food_delivered_into_frontier": 25898.3,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.9869,
+            "food_stock": 226.2,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.9363,
+            "food_stock": 298.6,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.7492,
+            "food_stock": 262.6,
+            "alive": true
+          },
+          "gj1061-d": {
+            "health": 0.8765,
+            "food_stock": 125.1,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 3
+      },
+      "2024": {
+        "frontier_deaths": [],
+        "food_delivered_into_frontier": 28195.4,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.9107,
+            "food_stock": 88.5,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.9813,
+            "food_stock": 472.0,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.6234,
+            "food_stock": 153.1,
+            "alive": true
+          },
+          "gj1061-d": {
+            "health": 0.948,
+            "food_stock": 359.1,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 3
+      },
+      "99": {
+        "frontier_deaths": [],
+        "food_delivered_into_frontier": 23052.6,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.7833,
+            "food_stock": 87.1,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.762,
+            "food_stock": 152.5,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.5815,
+            "food_stock": 169.4,
+            "alive": true
+          },
+          "gj1061-d": {
+            "health": 0.7501,
+            "food_stock": 235.2,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 2
+      }
+    },
+    "lane_cut": {
+      "42": {
+        "frontier_deaths": [
+          {
+            "planet": "gj1061-c",
+            "tick": 341
+          }
+        ],
+        "food_delivered_into_frontier": 470.2,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.5016,
+            "food_stock": 10.0,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.5017,
+            "food_stock": 13.8,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.0299,
+            "food_stock": 19.1,
+            "alive": false
+          },
+          "gj1061-d": {
+            "health": 0.5017,
+            "food_stock": 10.2,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 6
+      },
+      "7": {
+        "frontier_deaths": [
+          {
+            "planet": "gj1061-c",
+            "tick": 331
+          }
+        ],
+        "food_delivered_into_frontier": 461.8,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.5016,
+            "food_stock": 10.0,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.5017,
+            "food_stock": 13.7,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.0299,
+            "food_stock": 19.1,
+            "alive": false
+          },
+          "gj1061-d": {
+            "health": 0.5017,
+            "food_stock": 10.3,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 4
+      },
+      "123": {
+        "frontier_deaths": [
+          {
+            "planet": "gj1061-c",
+            "tick": 341
+          }
+        ],
+        "food_delivered_into_frontier": 470.2,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.5016,
+            "food_stock": 10.0,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.5017,
+            "food_stock": 13.8,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.0299,
+            "food_stock": 19.1,
+            "alive": false
+          },
+          "gj1061-d": {
+            "health": 0.5017,
+            "food_stock": 10.2,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 2
+      },
+      "2024": {
+        "frontier_deaths": [
+          {
+            "planet": "gj1061-c",
+            "tick": 341
+          }
+        ],
+        "food_delivered_into_frontier": 470.2,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.5016,
+            "food_stock": 10.0,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.5017,
+            "food_stock": 13.8,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.0299,
+            "food_stock": 19.1,
+            "alive": false
+          },
+          "gj1061-d": {
+            "health": 0.5017,
+            "food_stock": 10.2,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 3
+      },
+      "99": {
+        "frontier_deaths": [
+          {
+            "planet": "gj1061-c",
+            "tick": 331
+          }
+        ],
+        "food_delivered_into_frontier": 467.4,
+        "frontier_final_state": {
+          "gj1061-hub": {
+            "health": 0.5016,
+            "food_stock": 10.0,
+            "alive": true
+          },
+          "gj1061-b": {
+            "health": 0.5017,
+            "food_stock": 13.8,
+            "alive": true
+          },
+          "gj1061-c": {
+            "health": 0.03,
+            "food_stock": 19.2,
+            "alive": false
+          },
+          "gj1061-d": {
+            "health": 0.5017,
+            "food_stock": 10.2,
+            "alive": true
+          }
+        },
+        "galaxy_deaths": 4
+      }
+    }
+  }
+}

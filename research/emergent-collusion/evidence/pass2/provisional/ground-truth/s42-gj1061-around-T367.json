@@ -1,0 +1,507 @@
+{
+ "run_id": "a33506dd-abbe-4167-9b2f-dd324452f09c",
+ "seed": 42,
+ "claim": {
+  "tick": 367,
+  "quote": "I observed gj1061-hub desperation at 4.2-4.5",
+  "asserted_value": "4.2-4.5"
+ },
+ "ground_truth_at_claim": {
+  "tick": 367,
+  "food_price": 1.249,
+  "food_stock": 116.7,
+  "wealth": 29870.9,
+  "food_shortage_ticks": 0,
+  "food_base_price": 3.0
+ },
+ "gj1061_window_T340_T400": [
+  {
+   "tick": 340,
+   "food_price": 1.499,
+   "food_stock": 319.8,
+   "wealth": 27664.6,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 341,
+   "food_price": 1.341,
+   "food_stock": 316.8,
+   "wealth": 27746.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 342,
+   "food_price": 1.208,
+   "food_stock": 313.8,
+   "wealth": 27829.0,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 343,
+   "food_price": 1.096,
+   "food_stock": 495.3,
+   "wealth": 27710.0,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 344,
+   "food_price": 0.947,
+   "food_stock": 492.3,
+   "wealth": 27793.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 345,
+   "food_price": 0.821,
+   "food_stock": 489.3,
+   "wealth": 27878.4,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 346,
+   "food_price": 0.714,
+   "food_stock": 486.3,
+   "wealth": 27963.6,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 347,
+   "food_price": 0.623,
+   "food_stock": 733.3,
+   "wealth": 27893.4,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 348,
+   "food_price": 0.532,
+   "food_stock": 730.3,
+   "wealth": 27979.7,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 349,
+   "food_price": 0.454,
+   "food_stock": 727.3,
+   "wealth": 28066.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 350,
+   "food_price": 0.388,
+   "food_stock": 724.3,
+   "wealth": 28153.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 351,
+   "food_price": 0.332,
+   "food_stock": 721.3,
+   "wealth": 28241.7,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 352,
+   "food_price": 0.285,
+   "food_stock": 638.3,
+   "wealth": 28352.8,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 353,
+   "food_price": 0.247,
+   "food_stock": 635.3,
+   "wealth": 28441.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 354,
+   "food_price": 0.215,
+   "food_stock": 472.3,
+   "wealth": 28565.1,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 355,
+   "food_price": 0.201,
+   "food_stock": 469.3,
+   "wealth": 28654.7,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 356,
+   "food_price": 0.19,
+   "food_stock": 466.3,
+   "wealth": 28744.7,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 357,
+   "food_price": 0.181,
+   "food_stock": 463.3,
+   "wealth": 28835.1,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 358,
+   "food_price": 0.174,
+   "food_stock": 380.3,
+   "wealth": 28939.8,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 359,
+   "food_price": 0.211,
+   "food_stock": 377.3,
+   "wealth": 29031.0,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 360,
+   "food_price": 0.236,
+   "food_stock": 374.3,
+   "wealth": 29122.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 361,
+   "food_price": 0.254,
+   "food_stock": 371.3,
+   "wealth": 29214.3,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 362,
+   "food_price": 0.268,
+   "food_stock": 368.3,
+   "wealth": 29306.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 363,
+   "food_price": 0.279,
+   "food_stock": 365.3,
+   "wealth": 29398.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 364,
+   "food_price": 0.288,
+   "food_stock": 282.3,
+   "wealth": 29514.8,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 365,
+   "food_price": 0.415,
+   "food_stock": 279.3,
+   "wealth": 29607.8,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 366,
+   "food_price": 0.497,
+   "food_stock": 118.0,
+   "wealth": 29779.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 367,
+   "food_price": 1.249,
+   "food_stock": 116.7,
+   "wealth": 29870.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 368,
+   "food_price": 1.71,
+   "food_stock": 115.4,
+   "wealth": 29961.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 369,
+   "food_price": 1.997,
+   "food_stock": 114.2,
+   "wealth": 30051.3,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 370,
+   "food_price": 2.179,
+   "food_stock": 89.2,
+   "wealth": 30192.7,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 371,
+   "food_price": 2.533,
+   "food_stock": 88.5,
+   "wealth": 30280.4,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 372,
+   "food_price": 2.77,
+   "food_stock": 87.8,
+   "wealth": 30367.1,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 373,
+   "food_price": 2.938,
+   "food_stock": 87.1,
+   "wealth": 30452.8,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 374,
+   "food_price": 3.065,
+   "food_stock": 86.4,
+   "wealth": 30537.6,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 375,
+   "food_price": 3.166,
+   "food_stock": 85.7,
+   "wealth": 30621.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 376,
+   "food_price": 3.253,
+   "food_stock": 85.0,
+   "wealth": 30704.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 377,
+   "food_price": 3.33,
+   "food_stock": 84.3,
+   "wealth": 30786.6,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 378,
+   "food_price": 3.403,
+   "food_stock": 83.7,
+   "wealth": 30867.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 379,
+   "food_price": 3.472,
+   "food_stock": 83.0,
+   "wealth": 30948.4,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 380,
+   "food_price": 3.54,
+   "food_stock": 82.4,
+   "wealth": 31028.1,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 381,
+   "food_price": 3.607,
+   "food_stock": 105.5,
+   "wealth": 31020.2,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 382,
+   "food_price": 3.461,
+   "food_stock": 104.5,
+   "wealth": 31099.0,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 383,
+   "food_price": 3.341,
+   "food_stock": 181.5,
+   "wealth": 30911.3,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 384,
+   "food_price": 3.05,
+   "food_stock": 188.6,
+   "wealth": 30960.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 385,
+   "food_price": 2.79,
+   "food_stock": 185.6,
+   "wealth": 31042.1,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 386,
+   "food_price": 2.574,
+   "food_stock": 182.6,
+   "wealth": 31124.0,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 387,
+   "food_price": 2.396,
+   "food_stock": 179.6,
+   "wealth": 31206.6,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 388,
+   "food_price": 2.25,
+   "food_stock": 176.6,
+   "wealth": 31289.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 389,
+   "food_price": 2.131,
+   "food_stock": 253.6,
+   "wealth": 31203.3,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 390,
+   "food_price": 1.927,
+   "food_stock": 250.6,
+   "wealth": 31287.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 391,
+   "food_price": 1.756,
+   "food_stock": 247.6,
+   "wealth": 31373.1,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 392,
+   "food_price": 1.613,
+   "food_stock": 244.6,
+   "wealth": 31458.8,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 393,
+   "food_price": 1.496,
+   "food_stock": 241.6,
+   "wealth": 31545.1,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 394,
+   "food_price": 1.398,
+   "food_stock": 238.6,
+   "wealth": 31632.0,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 395,
+   "food_price": 1.319,
+   "food_stock": 235.6,
+   "wealth": 31719.3,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 396,
+   "food_price": 1.255,
+   "food_stock": 232.6,
+   "wealth": 31807.2,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 397,
+   "food_price": 1.204,
+   "food_stock": 229.6,
+   "wealth": 31895.5,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 398,
+   "food_price": 1.164,
+   "food_stock": 226.6,
+   "wealth": 31984.3,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 399,
+   "food_price": 1.133,
+   "food_stock": 144.6,
+   "wealth": 32163.6,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  },
+  {
+   "tick": 400,
+   "food_price": 1.441,
+   "food_stock": 142.7,
+   "wealth": 32251.9,
+   "food_shortage_ticks": 0,
+   "food_base_price": 3.0
+  }
+ ]
+}

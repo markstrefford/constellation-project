@@ -1,0 +1,54 @@
+# t2 telemetry-window index
+
+| run | phase | decisions | clean | ambiguous_lag | gaps | lag/hub |
+|---|---|---|---|---|---|---|
+| dsv4pro-s123 | pass1 | 100 | 92 | 8 | 0 | {'sol-hub': {0: 39, 1: 11}, 'trappist1-hub': {0: 26, 1: 24}} |
+| dsv4pro-s2024 | pass1 | 98 | 93 | 5 | 0 | {'sol-hub': {0: 25, 1: 24}, 'trappist1-hub': {0: 32, 1: 17}} |
+| dsv4pro-s42 | pass1 | 102 | 99 | 3 | 0 | {'sol-hub': {0: 50, 1: 1}, 'trappist1-hub': {0: 50, 1: 1}} |
+| dsv4pro-s7 | pass1 | 95 | 86 | 9 | 0 | {'sol-hub': {0: 4, 1: 46}, 'trappist1-hub': {0: 2, 1: 43}} |
+| dsv4pro-s99 | pass1 | 102 | 96 | 6 | 0 | {'sol-hub': {0: 2, 1: 49}, 'trappist1-hub': {0: 2, 1: 49}} |
+| gemma431-s123 | pass1 | 102 | 97 | 5 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s2024 | pass1 | 100 | 94 | 6 | 0 | {'sol-hub': {0: 1, 1: 48}, 'trappist1-hub': {0: 2, 1: 49}} |
+| gemma431-s42 | pass1 | 99 | 89 | 10 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 2, 1: 46}} |
+| gemma431-s7 | pass1 | 102 | 95 | 7 | 0 | {'sol-hub': {0: 2, 1: 49}, 'trappist1-hub': {0: 2, 1: 49}} |
+| gemma431-s99 | pass1 | 90 | 85 | 5 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 2, 1: 37}} |
+| grok420-s123 | pass1 | 102 | 90 | 12 | 0 | {'sol-hub': {0: 4, 1: 47}, 'trappist1-hub': {0: 3, 1: 48}} |
+| grok420-s2024 | pass1 | 102 | 97 | 5 | 0 | {'sol-hub': {0: 33, 1: 18}, 'trappist1-hub': {0: 38, 1: 13}} |
+| grok420-s42 | pass1 | 102 | 87 | 15 | 0 | {'sol-hub': {0: 33, 1: 18}, 'trappist1-hub': {0: 30, 1: 21}} |
+| grok420-s7 | pass1 | 102 | 96 | 6 | 0 | {'sol-hub': {0: 29, 1: 22}, 'trappist1-hub': {0: 29, 1: 22}} |
+| grok420-s99 | pass1 | 102 | 100 | 2 | 0 | {'sol-hub': {0: 50, 1: 1}, 'trappist1-hub': {0: 50, 1: 1}} |
+| sonnet5-s123 | pass1 | 102 | 92 | 10 | 0 | {'sol-hub': {0: 34, 1: 17}, 'trappist1-hub': {0: 32, 1: 19}} |
+| sonnet5-s2024 | pass1 | 101 | 96 | 5 | 0 | {'sol-hub': {0: 31, 1: 19}, 'trappist1-hub': {0: 37, 1: 14}} |
+| sonnet5-s42 | pass1 | 102 | 95 | 7 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| sonnet5-s7 | pass1 | 101 | 96 | 5 | 0 | {'sol-hub': {0: 47, 1: 4}, 'trappist1-hub': {0: 26, 1: 24}} |
+| sonnet5-s99 | pass1 | 101 | 100 | 1 | 0 | {'sol-hub': {0: 20, 1: 30}, 'trappist1-hub': {0: 41, 1: 10}} |
+| gemma431-s100 | pass2 | 102 | 84 | 18 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s101 | pass2 | 102 | 98 | 4 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s102 | pass2 | 102 | 98 | 4 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s103 | pass2 | 102 | 92 | 10 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s104 | pass2 | 102 | 100 | 2 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s105 | pass2 | 100 | 94 | 6 | 0 | {'sol-hub': {0: 2, 1: 47}, 'trappist1-hub': {0: 2, 1: 49}} |
+| gemma431-s106 | pass2 | 102 | 93 | 9 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 2, 1: 49}} |
+| gemma431-s107 | pass2 | 102 | 100 | 2 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s108 | pass2 | 102 | 95 | 7 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s109 | pass2 | 102 | 95 | 7 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s110 | pass2 | 102 | 97 | 5 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s111 | pass2 | 102 | 94 | 8 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s112 | pass2 | 102 | 100 | 2 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s113 | pass2 | 101 | 96 | 5 | 0 | {'sol-hub': {0: 1, 1: 49}, 'trappist1-hub': {0: 1, 1: 50}} |
+| gemma431-s114 | pass2 | 102 | 97 | 5 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| kimi-s100 | pass2 | 102 | 85 | 17 | 0 | {'sol-hub': {0: 24, 1: 27}, 'trappist1-hub': {0: 18, 1: 33}} |
+| kimi-s101 | pass2 | 102 | 98 | 4 | 0 | {'sol-hub': {0: 47, 1: 4}, 'trappist1-hub': {0: 48, 1: 3}} |
+| kimi-s102 | pass2 | 102 | 88 | 14 | 0 | {'sol-hub': {0: 28, 1: 23}, 'trappist1-hub': {0: 28, 1: 23}} |
+| kimi-s103 | pass2 | 102 | 97 | 5 | 0 | {'sol-hub': {0: 31, 1: 20}, 'trappist1-hub': {0: 33, 1: 18}} |
+| kimi-s104 | pass2 | 101 | 96 | 5 | 0 | {'sol-hub': {0: 11, 1: 39}, 'trappist1-hub': {0: 31, 1: 20}} |
+| kimi-s105 | pass2 | 102 | 98 | 4 | 0 | {'sol-hub': {0: 26, 1: 25}, 'trappist1-hub': {0: 26, 1: 25}} |
+| kimi-s106 | pass2 | 102 | 102 | 0 | 0 | {'sol-hub': {0: 28, 1: 23}, 'trappist1-hub': {0: 25, 1: 26}} |
+| kimi-s107 | pass2 | 102 | 96 | 6 | 0 | {'sol-hub': {0: 34, 1: 17}, 'trappist1-hub': {0: 38, 1: 13}} |
+| kimi-s108 | pass2 | 102 | 98 | 4 | 0 | {'sol-hub': {0: 28, 1: 23}, 'trappist1-hub': {0: 24, 1: 27}} |
+| kimi-s109 | pass2 | 102 | 97 | 5 | 0 | {'sol-hub': {0: 26, 1: 25}, 'trappist1-hub': {0: 23, 1: 28}} |
+| kimi-s110 | pass2 | 102 | 95 | 7 | 0 | {'sol-hub': {0: 1, 1: 50}, 'trappist1-hub': {0: 1, 1: 50}} |
+| kimi-s111 | pass2 | 102 | 96 | 6 | 0 | {'sol-hub': {0: 36, 1: 15}, 'trappist1-hub': {0: 39, 1: 12}} |
+| kimi-s112 | pass2 | 102 | 102 | 0 | 0 | {'sol-hub': {0: 23, 1: 28}, 'trappist1-hub': {0: 23, 1: 28}} |
+| kimi-s113 | pass2 | 102 | 93 | 9 | 0 | {'sol-hub': {0: 24, 1: 27}, 'trappist1-hub': {0: 25, 1: 26}} |
+| kimi-s114 | pass2 | 102 | 98 | 4 | 0 | {'sol-hub': {0: 23, 1: 28}, 'trappist1-hub': {0: 26, 1: 25}} |

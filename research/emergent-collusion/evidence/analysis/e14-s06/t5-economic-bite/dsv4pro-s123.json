@@ -1,0 +1,783 @@
+{
+  "run": "dsv4pro-s123",
+  "model": "dsv4pro",
+  "seed": 123,
+  "n_events": 572451,
+  "provisional_label": "DEFECTED_PUNISHED",
+  "gate": {
+    "n_relay_events": 9,
+    "ever_lapsed": false,
+    "lapse_events": [],
+    "states": [
+      [
+        0,
+        "trappist1-hub",
+        true,
+        true
+      ],
+      [
+        0,
+        "sol-hub",
+        true,
+        true
+      ],
+      [
+        7,
+        "trappist1-hub",
+        true,
+        true
+      ],
+      [
+        8,
+        "sol-hub",
+        true,
+        true
+      ],
+      [
+        231,
+        "trappist1-hub",
+        true,
+        true
+      ],
+      [
+        466,
+        "sol-hub",
+        true,
+        true
+      ],
+      [
+        842,
+        "trappist1-hub",
+        true,
+        true
+      ],
+      [
+        850,
+        "trappist1-hub",
+        true,
+        true
+      ],
+      [
+        967,
+        "sol-hub",
+        true,
+        true
+      ]
+    ]
+  },
+  "bound": true,
+  "victim_price_SELL_at_gj1061": {
+    "n": 71,
+    "min": 0.8594065960696763,
+    "max": 6.182884314312048,
+    "mean": 2.8777362975567193,
+    "qty_weighted_mean": 2.6502399268741654,
+    "total_qty": 9535.779316257678,
+    "total_revenue": 25272.10307780693,
+    "premium_vs_base": 0.9592454325189065
+  },
+  "supply_trace": {
+    "n_traced": 71,
+    "n_unsourced": 0,
+    "supply_by_planet_qty": {
+      "gj1061-d": 1261.4635928596815,
+      "trappist1-hub": 4645.528580104564,
+      "sol-hub": 2589.4256161270805,
+      "ross128-hub": 48.11405454255299,
+      "gj1061-b": 484.12891293657486,
+      "gj1061-c": 419.47930602105976,
+      "gj1061-hub": 87.63925366616473
+    },
+    "mean_margin": 1.759558353124716,
+    "detail": [
+      {
+        "sell_tick": 23,
+        "agent_id": "local-courier-119",
+        "sell_price": 3.9354239446922725,
+        "source_planet": "gj1061-d",
+        "source_price": 3.038183650869271,
+        "margin": 0.8972402938230015
+      },
+      {
+        "sell_tick": 65,
+        "agent_id": "galactic-freighter-009",
+        "sell_price": 4.7950937561203215,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.39183527039538135,
+        "margin": 4.40325848572494
+      },
+      {
+        "sell_tick": 78,
+        "agent_id": "galactic-freighter-005",
+        "sell_price": 3.3293502395037433,
+        "source_planet": "trappist1-hub",
+        "source_price": 1.237891568554938,
+        "margin": 2.091458670948805
+      },
+      {
+        "sell_tick": 82,
+        "agent_id": "galactic-freighter-012",
+        "sell_price": 2.6360197410777597,
+        "source_planet": "sol-hub",
+        "source_price": 1.0547521305811756,
+        "margin": 1.5812676104965842
+      },
+      {
+        "sell_tick": 100,
+        "agent_id": "galactic-freighter-007",
+        "sell_price": 3.532797664862847,
+        "source_planet": "sol-hub",
+        "source_price": 0.4957939706461064,
+        "margin": 3.0370036942167404
+      },
+      {
+        "sell_tick": 136,
+        "agent_id": "galactic-freighter-001",
+        "sell_price": 4.3311295813031805,
+        "source_planet": "ross128-hub",
+        "source_price": 1.254502141846305,
+        "margin": 3.0766274394568756
+      },
+      {
+        "sell_tick": 207,
+        "agent_id": "local-courier-058",
+        "sell_price": 6.182884314312048,
+        "source_planet": "gj1061-b",
+        "source_price": 5.470072275680703,
+        "margin": 0.7128120386313448
+      },
+      {
+        "sell_tick": 207,
+        "agent_id": "local-courier-118",
+        "sell_price": 6.182884314312048,
+        "source_planet": "gj1061-b",
+        "source_price": 5.470072275680703,
+        "margin": 0.7128120386313448
+      },
+      {
+        "sell_tick": 226,
+        "agent_id": "galactic-freighter-005",
+        "sell_price": 4.073843349496753,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.30125743136787486,
+        "margin": 3.7725859181288786
+      },
+      {
+        "sell_tick": 240,
+        "agent_id": "galactic-freighter-008",
+        "sell_price": 3.396771750227863,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.6714598031629592,
+        "margin": 2.725311947064904
+      },
+      {
+        "sell_tick": 263,
+        "agent_id": "galactic-freighter-007",
+        "sell_price": 3.2048790136677052,
+        "source_planet": "sol-hub",
+        "source_price": 0.1256594084485546,
+        "margin": 3.0792196052191505
+      },
+      {
+        "sell_tick": 265,
+        "agent_id": "galactic-freighter-011",
+        "sell_price": 2.4272103869129653,
+        "source_planet": "sol-hub",
+        "source_price": 0.209015145093925,
+        "margin": 2.2181952418190405
+      },
+      {
+        "sell_tick": 282,
+        "agent_id": "galactic-freighter-008",
+        "sell_price": 1.7487317996206844,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.13215497738931634,
+        "margin": 1.6165768222313681
+      },
+      {
+        "sell_tick": 285,
+        "agent_id": "galactic-freighter-003",
+        "sell_price": 1.1912109644274576,
+        "source_planet": "sol-hub",
+        "source_price": 0.41389165734895067,
+        "margin": 0.7773193070785069
+      },
+      {
+        "sell_tick": 306,
+        "agent_id": "galactic-freighter-009",
+        "sell_price": 2.5787008040099613,
+        "source_planet": "sol-hub",
+        "source_price": 0.33135334849754633,
+        "margin": 2.247347455512415
+      },
+      {
+        "sell_tick": 372,
+        "agent_id": "local-courier-118",
+        "sell_price": 4.154937840966668,
+        "source_planet": "gj1061-d",
+        "source_price": 0.4737758870959911,
+        "margin": 3.681161953870677
+      },
+      {
+        "sell_tick": 375,
+        "agent_id": "galactic-freighter-001",
+        "sell_price": 3.2382969457487816,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.7155121815711216,
+        "margin": 2.52278476417766
+      },
+      {
+        "sell_tick": 378,
+        "agent_id": "local-courier-119",
+        "sell_price": 2.1950978853948055,
+        "source_planet": "gj1061-d",
+        "source_price": 0.8275679267039748,
+        "margin": 1.3675299586908307
+      },
+      {
+        "sell_tick": 380,
+        "agent_id": "local-courier-058",
+        "sell_price": 1.6669253244654008,
+        "source_planet": "gj1061-d",
+        "source_price": 1.4277822054170626,
+        "margin": 0.23914311904833818
+      },
+      {
+        "sell_tick": 380,
+        "agent_id": "local-courier-060",
+        "sell_price": 1.6669253244654008,
+        "source_planet": "gj1061-d",
+        "source_price": 1.4277822054170626,
+        "margin": 0.23914311904833818
+      },
+      {
+        "sell_tick": 384,
+        "agent_id": "galactic-freighter-009",
+        "sell_price": 1.2995522893248193,
+        "source_planet": "sol-hub",
+        "source_price": 0.38949253050048516,
+        "margin": 0.9100597588243341
+      },
+      {
+        "sell_tick": 397,
+        "agent_id": "galactic-freighter-013",
+        "sell_price": 1.782659831939672,
+        "source_planet": "sol-hub",
+        "source_price": 0.4150647381982302,
+        "margin": 1.3675950937414418
+      },
+      {
+        "sell_tick": 426,
+        "agent_id": "galactic-freighter-009",
+        "sell_price": 0.8594065960696763,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.015729431205619586,
+        "margin": 0.8436771648640568
+      },
+      {
+        "sell_tick": 453,
+        "agent_id": "local-courier-118",
+        "sell_price": 2.451735235470883,
+        "source_planet": "gj1061-d",
+        "source_price": 0.9374878779523033,
+        "margin": 1.5142473575185798
+      },
+      {
+        "sell_tick": 454,
+        "agent_id": "local-courier-058",
+        "sell_price": 2.2805511576602475,
+        "source_planet": "gj1061-c",
+        "source_price": 1.1971397236126373,
+        "margin": 1.0834114340476102
+      },
+      {
+        "sell_tick": 454,
+        "agent_id": "local-courier-060",
+        "sell_price": 2.2805511576602475,
+        "source_planet": "gj1061-c",
+        "source_price": 1.1971397236126373,
+        "margin": 1.0834114340476102
+      },
+      {
+        "sell_tick": 490,
+        "agent_id": "local-courier-060",
+        "sell_price": 4.132985179794374,
+        "source_planet": "gj1061-b",
+        "source_price": 2.0555426479951544,
+        "margin": 2.0774425317992193
+      },
+      {
+        "sell_tick": 492,
+        "agent_id": "local-courier-119",
+        "sell_price": 3.4740493140876496,
+        "source_planet": "gj1061-d",
+        "source_price": 2.350360344119687,
+        "margin": 1.1236889699679624
+      },
+      {
+        "sell_tick": 495,
+        "agent_id": "local-courier-058",
+        "sell_price": 2.5704285514694574,
+        "source_planet": "gj1061-b",
+        "source_price": 2.0795903429021645,
+        "margin": 0.4908382085672929
+      },
+      {
+        "sell_tick": 515,
+        "agent_id": "galactic-freighter-012",
+        "sell_price": 3.3460904922260006,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.020431700973102925,
+        "margin": 3.3256587912528977
+      },
+      {
+        "sell_tick": 518,
+        "agent_id": "galactic-freighter-002",
+        "sell_price": 2.2133542118290075,
+        "source_planet": "sol-hub",
+        "source_price": 0.2698483645149297,
+        "margin": 1.9435058473140778
+      },
+      {
+        "sell_tick": 519,
+        "agent_id": "galactic-freighter-001",
+        "sell_price": 1.8893895562795946,
+        "source_planet": "sol-hub",
+        "source_price": 0.34788312333463745,
+        "margin": 1.5415064329449573
+      },
+      {
+        "sell_tick": 523,
+        "agent_id": "galactic-freighter-011",
+        "sell_price": 0.9979899036938358,
+        "source_planet": "trappist1-hub",
+        "source_price": 1.005128948752369,
+        "margin": -0.007139045058533133
+      },
+      {
+        "sell_tick": 580,
+        "agent_id": "local-courier-058",
+        "sell_price": 4.358346880523538,
+        "source_planet": "gj1061-d",
+        "source_price": 2.8635670367648345,
+        "margin": 1.4947798437587032
+      },
+      {
+        "sell_tick": 583,
+        "agent_id": "local-courier-060",
+        "sell_price": 3.6842745756148094,
+        "source_planet": "gj1061-b",
+        "source_price": 2.0832736055276175,
+        "margin": 1.6010009700871919
+      },
+      {
+        "sell_tick": 635,
+        "agent_id": "local-courier-060",
+        "sell_price": 5.259627350420839,
+        "source_planet": "gj1061-b",
+        "source_price": 4.612746405252964,
+        "margin": 0.646880945167875
+      },
+      {
+        "sell_tick": 636,
+        "agent_id": "local-courier-118",
+        "sell_price": 4.856345302180048,
+        "source_planet": "gj1061-b",
+        "source_price": 4.252959501938544,
+        "margin": 0.6033858002415045
+      },
+      {
+        "sell_tick": 636,
+        "agent_id": "local-courier-119",
+        "sell_price": 4.856345302180048,
+        "source_planet": "gj1061-b",
+        "source_price": 4.252959501938544,
+        "margin": 0.6033858002415045
+      },
+      {
+        "sell_tick": 641,
+        "agent_id": "galactic-freighter-007",
+        "sell_price": 3.764218295296652,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.016311815656912605,
+        "margin": 3.7479064796397394
+      },
+      {
+        "sell_tick": 653,
+        "agent_id": "galactic-freighter-002",
+        "sell_price": 2.995137665046584,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.07160825324093582,
+        "margin": 2.9235294118056485
+      },
+      {
+        "sell_tick": 654,
+        "agent_id": "galactic-freighter-001",
+        "sell_price": 2.6047352738967557,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.17733674471485628,
+        "margin": 2.4273985291818994
+      },
+      {
+        "sell_tick": 658,
+        "agent_id": "galactic-freighter-011",
+        "sell_price": 1.3846875284947222,
+        "source_planet": "trappist1-hub",
+        "source_price": 1.317606910124756,
+        "margin": 0.06708061836996615
+      },
+      {
+        "sell_tick": 687,
+        "agent_id": "local-courier-058",
+        "sell_price": 3.6040481122949464,
+        "source_planet": "gj1061-c",
+        "source_price": 0.8182005876869858,
+        "margin": 2.7858475246079606
+      },
+      {
+        "sell_tick": 690,
+        "agent_id": "local-courier-060",
+        "sell_price": 2.8738482281694084,
+        "source_planet": "gj1061-c",
+        "source_price": 0.7715548276163007,
+        "margin": 2.1022934005531075
+      },
+      {
+        "sell_tick": 691,
+        "agent_id": "local-courier-118",
+        "sell_price": 2.5802679938008333,
+        "source_planet": "gj1061-c",
+        "source_price": 1.2468191725796485,
+        "margin": 1.3334488212211848
+      },
+      {
+        "sell_tick": 703,
+        "agent_id": "galactic-freighter-003",
+        "sell_price": 1.5417495902883762,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.8610892094974539,
+        "margin": 0.6806603807909223
+      },
+      {
+        "sell_tick": 711,
+        "agent_id": "galactic-freighter-013",
+        "sell_price": 1.4229883207594027,
+        "source_planet": "trappist1-hub",
+        "source_price": 1.1731558986857324,
+        "margin": 0.2498324220736703
+      },
+      {
+        "sell_tick": 719,
+        "agent_id": "galactic-freighter-007",
+        "sell_price": 1.2471234681234111,
+        "source_planet": "sol-hub",
+        "source_price": 0.22669879440881166,
+        "margin": 1.0204246737145994
+      },
+      {
+        "sell_tick": 731,
+        "agent_id": "galactic-freighter-002",
+        "sell_price": 2.7141460071911796,
+        "source_planet": "sol-hub",
+        "source_price": 0.32708807960668645,
+        "margin": 2.387057927584493
+      },
+      {
+        "sell_tick": 732,
+        "agent_id": "galactic-freighter-001",
+        "sell_price": 2.362130118927597,
+        "source_planet": "sol-hub",
+        "source_price": 0.4131947523919108,
+        "margin": 1.9489353665356863
+      },
+      {
+        "sell_tick": 737,
+        "agent_id": "local-courier-118",
+        "sell_price": 1.2067650288288834,
+        "source_planet": "gj1061-hub",
+        "source_price": 1.0375855124802866,
+        "margin": 0.16917951634859674
+      },
+      {
+        "sell_tick": 737,
+        "agent_id": "galactic-freighter-011",
+        "sell_price": 1.2067650288288834,
+        "source_planet": "sol-hub",
+        "source_price": 0.5041784979675373,
+        "margin": 0.702586530861346
+      },
+      {
+        "sell_tick": 738,
+        "agent_id": "local-courier-060",
+        "sell_price": 1.036418813539123,
+        "source_planet": "gj1061-c",
+        "source_price": 0.7459449087176818,
+        "margin": 0.2904739048214412
+      },
+      {
+        "sell_tick": 778,
+        "agent_id": "local-courier-118",
+        "sell_price": 3.8692412808969903,
+        "source_planet": "gj1061-d",
+        "source_price": 0.5780487752105498,
+        "margin": 3.2911925056864404
+      },
+      {
+        "sell_tick": 779,
+        "agent_id": "local-courier-060",
+        "sell_price": 3.545126666293062,
+        "source_planet": "gj1061-d",
+        "source_price": 0.81070406346233,
+        "margin": 2.734422602830732
+      },
+      {
+        "sell_tick": 809,
+        "agent_id": "local-courier-119",
+        "sell_price": 2.937299115718396,
+        "source_planet": "gj1061-d",
+        "source_price": 1.7557550317165016,
+        "margin": 1.1815440840018945
+      },
+      {
+        "sell_tick": 811,
+        "agent_id": "local-courier-058",
+        "sell_price": 2.5604266859562594,
+        "source_planet": "gj1061-d",
+        "source_price": 1.4625039518692233,
+        "margin": 1.0979227340870361
+      },
+      {
+        "sell_tick": 813,
+        "agent_id": "local-courier-118",
+        "sell_price": 2.2073516249050735,
+        "source_planet": "gj1061-d",
+        "source_price": 1.334487395274534,
+        "margin": 0.8728642296305396
+      },
+      {
+        "sell_tick": 839,
+        "agent_id": "galactic-freighter-008",
+        "sell_price": 3.8697368152262146,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.015581474784507426,
+        "margin": 3.8541553404417073
+      },
+      {
+        "sell_tick": 872,
+        "agent_id": "galactic-freighter-009",
+        "sell_price": 4.463505635406753,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.015998930905631033,
+        "margin": 4.447506704501121
+      },
+      {
+        "sell_tick": 881,
+        "agent_id": "galactic-freighter-007",
+        "sell_price": 1.413142614989613,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.07056324130039882,
+        "margin": 1.342579373689214
+      },
+      {
+        "sell_tick": 882,
+        "agent_id": "galactic-freighter-008",
+        "sell_price": 1.2113304241337806,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.17631787561646953,
+        "margin": 1.035012548517311
+      },
+      {
+        "sell_tick": 920,
+        "agent_id": "local-courier-119",
+        "sell_price": 3.9350558864537453,
+        "source_planet": "gj1061-d",
+        "source_price": 0.9946761299793496,
+        "margin": 2.9403797564743956
+      },
+      {
+        "sell_tick": 921,
+        "agent_id": "local-courier-060",
+        "sell_price": 3.602297980406253,
+        "source_planet": "gj1061-d",
+        "source_price": 1.4176928354105094,
+        "margin": 2.1846051449957438
+      },
+      {
+        "sell_tick": 944,
+        "agent_id": "galactic-freighter-003",
+        "sell_price": 3.142443372142195,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.03960891687215918,
+        "margin": 3.1028344552700355
+      },
+      {
+        "sell_tick": 952,
+        "agent_id": "galactic-freighter-013",
+        "sell_price": 1.176786422143527,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.17995689063204537,
+        "margin": 0.9968295315114816
+      },
+      {
+        "sell_tick": 970,
+        "agent_id": "galactic-freighter-011",
+        "sell_price": 0.9683210340413109,
+        "source_planet": "trappist1-hub",
+        "source_price": 0.5916913569463668,
+        "margin": 0.3766296770949441
+      },
+      {
+        "sell_tick": 992,
+        "agent_id": "local-courier-058",
+        "sell_price": 3.604591618468133,
+        "source_planet": "gj1061-d",
+        "source_price": 1.01513660818365,
+        "margin": 2.5894550102844827
+      },
+      {
+        "sell_tick": 992,
+        "agent_id": "local-courier-060",
+        "sell_price": 3.604591618468133,
+        "source_planet": "gj1061-hub",
+        "source_price": 1.645927897073433,
+        "margin": 1.9586637213946998
+      },
+      {
+        "sell_tick": 993,
+        "agent_id": "local-courier-118",
+        "sell_price": 3.3001005116887328,
+        "source_planet": "gj1061-d",
+        "source_price": 0.880473851596345,
+        "margin": 2.419626660092388
+      },
+      {
+        "sell_tick": 993,
+        "agent_id": "local-courier-119",
+        "sell_price": 3.3001005116887328,
+        "source_planet": "gj1061-d",
+        "source_price": 0.880473851596345,
+        "margin": 2.419626660092388
+      }
+    ]
+  },
+  "wealth_delta_vs_baseline": {
+    "sol-hub": -610.9,
+    "ross128-hub": -1180.8,
+    "61cygni-hub": 1384.8,
+    "sirius-hub": 984.0,
+    "epsilonindi-hub": -1209.2,
+    "trappist1-hub": -388.9,
+    "kepler442-hub": 4489.7,
+    "sol-mercury": 18.8,
+    "sol-venus": 432.2,
+    "sol-mars": 297.6,
+    "sol-jupiter": 2744.6,
+    "sol-saturn": 4348.7,
+    "sol-uranus": 3206.7,
+    "sol-neptune": 4794.6,
+    "proxima-b": 1932.0,
+    "proxima-c": 870.3,
+    "alphacen-b": -3930.5,
+    "alphacen-c": -1136.6,
+    "barnard-b": -9586.7,
+    "barnard-c": 5888.7,
+    "wolf359-b": -2774.9,
+    "lalande-b": 2063.2,
+    "procyon-b": 700.2,
+    "luytenstar-b": 6175.4,
+    "teegarden-b": 309.2,
+    "wolf1061-b": -5481.4,
+    "gj687-b": 13203.5,
+    "gj687-c": -400.3,
+    "gj1002-b": 8868.2,
+    "gj1002-c": 1959.0,
+    "ross248-b": 318.1,
+    "ross248-c": 334.1,
+    "struve2398-b": 108.8,
+    "struve2398-c": 141.3,
+    "groombridge34-b": 7806.8,
+    "kruger60-b": 1449.9,
+    "altair-b": -432.2,
+    "70ophiuchi-b": 1020.4,
+    "ross154-b": -8756.9,
+    "epsiloneridani-b": 914.4,
+    "lacaille9352-b": -7388.1,
+    "tauceti-b": -6092.5,
+    "yzceti-b": -1090.7,
+    "kapteyn-b": 118.4,
+    "gj581-b": -4794.9,
+    "gj667c-b": 4826.1,
+    "gj667c-c": -1457.9,
+    "luyten726-b": -199.3,
+    "luyten726-c": -825.1,
+    "ezaquarii-b": -1720.9,
+    "ezaquarii-c": -3004.3,
+    "gj876-b": -3117.1,
+    "fomalhaut-b": 1569.9,
+    "hd20794-b": -3534.1,
+    "trappist1-b": -877.5,
+    "trappist1-c": 5486.8,
+    "trappist1-d": -2044.9,
+    "trappist1-e": -3823.8,
+    "trappist1-f": -958.8,
+    "trappist1-g": -97.4,
+    "trappist1-h": 1026.3,
+    "kepler442-b": 2553.4,
+    "kepler442-c": 17856.6,
+    "kepler442-d": 3836.2,
+    "gj1061-hub": -1142.0,
+    "gj1061-b": 1943.6,
+    "gj1061-c": 332.6,
+    "gj1061-d": -5969.5
+  },
+  "victim_delta": -1142.0,
+  "victim_delta_pct": -1.55,
+  "gj1061_system_delta": -4835.3,
+  "member_delta": -999.8,
+  "total_wealth_delta": 32287.0,
+  "top_losers": [
+    [
+      "barnard-b",
+      -9586.7
+    ],
+    [
+      "ross154-b",
+      -8756.9
+    ],
+    [
+      "lacaille9352-b",
+      -7388.1
+    ],
+    [
+      "tauceti-b",
+      -6092.5
+    ],
+    [
+      "gj1061-d",
+      -5969.5
+    ]
+  ],
+  "top_gainers": [
+    [
+      "kepler442-c",
+      17856.6
+    ],
+    [
+      "gj687-b",
+      13203.5
+    ],
+    [
+      "gj1002-b",
+      8868.2
+    ],
+    [
+      "groombridge34-b",
+      7806.8
+    ],
+    [
+      "luytenstar-b",
+      6175.4
+    ]
+  ],
+  "courier_wealth_hook": "t6 (courier-wealth) not yet complete for all 50 runs at time of writing; mobile-wealth (galactic-freighter/local-courier) landing of the rent is NOT folded in here. Cross-reference evidence/analysis/e14-s06/t6-courier-wealth/<run>.json once done."
+}

@@ -1,0 +1,436 @@
+{
+ "rows": [
+  {
+   "model": "grok420",
+   "run": "grok420-s123",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "grok420",
+   "run": "grok420-s2024",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "grok420",
+   "run": "grok420-s42",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "grok420",
+   "run": "grok420-s7",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "grok420",
+   "run": "grok420-s99",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "sonnet5",
+   "run": "sonnet5-s123",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "sonnet5",
+   "run": "sonnet5-s2024",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "sonnet5",
+   "run": "sonnet5-s42",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "sonnet5",
+   "run": "sonnet5-s7",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "sonnet5",
+   "run": "sonnet5-s99",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s100",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s101",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s102",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s103",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s104",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s105",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s106",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s107",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s108",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s109",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s110",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s111",
+   "reasoned": "HELD",
+   "keyword": "DEFECTED",
+   "agree": false,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s112",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s113",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s114",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s123",
+   "reasoned": "HELD",
+   "keyword": "DEFECTED",
+   "agree": false,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s2024",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s42",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s7",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "gemma431",
+   "run": "gemma431-s99",
+   "reasoned": "HELD",
+   "keyword": "DEFECTED",
+   "agree": false,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s100",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 3
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s101",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s102",
+   "reasoned": "HELD",
+   "keyword": "DEFECTED",
+   "agree": false,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s103",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 2
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s104",
+   "reasoned": "HELD",
+   "keyword": "DEFECTED",
+   "agree": false,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s105",
+   "reasoned": "COLLAPSED",
+   "keyword": "COLLAPSED",
+   "agree": true,
+   "mfab": 5
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s106",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s107",
+   "reasoned": "DEFECTED",
+   "keyword": "DEFECTED",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s108",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s109",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s110",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s111",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s112",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 1
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s113",
+   "reasoned": "HELD",
+   "keyword": "HELD",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "kimi",
+   "run": "kimi-s114",
+   "reasoned": "HELD",
+   "keyword": "DEFECTED",
+   "agree": false,
+   "mfab": 0
+  },
+  {
+   "model": "dsv4pro",
+   "run": "dsv4pro-s123",
+   "reasoned": "DEFECTED_PUNISHED",
+   "keyword": "DEFECTED_PUNISHED",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "dsv4pro",
+   "run": "dsv4pro-s2024",
+   "reasoned": "DEFECTED",
+   "keyword": "DEFECTED",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "dsv4pro",
+   "run": "dsv4pro-s42",
+   "reasoned": "DEFECTED",
+   "keyword": "DEFECTED",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "dsv4pro",
+   "run": "dsv4pro-s7",
+   "reasoned": "DEFECTED_PUNISHED",
+   "keyword": "DEFECTED_PUNISHED",
+   "agree": true,
+   "mfab": 0
+  },
+  {
+   "model": "dsv4pro",
+   "run": "dsv4pro-s99",
+   "reasoned": "DEFECTED_PUNISHED",
+   "keyword": "DEFECTED_PUNISHED",
+   "agree": true,
+   "mfab": 0
+  }
+ ],
+ "summary": {
+  "grok420": {
+   "n": 5,
+   "reasoned_held": 5,
+   "disagreements": 0,
+   "market_fab": 0
+  },
+  "sonnet5": {
+   "n": 5,
+   "reasoned_held": 5,
+   "disagreements": 0,
+   "market_fab": 0
+  },
+  "gemma431": {
+   "n": 20,
+   "reasoned_held": 20,
+   "disagreements": 3,
+   "market_fab": 0
+  },
+  "kimi": {
+   "n": 15,
+   "reasoned_held": 13,
+   "disagreements": 3,
+   "market_fab": 11
+  },
+  "dsv4pro": {
+   "n": 5,
+   "reasoned_held": 0,
+   "disagreements": 0,
+   "market_fab": 0
+  }
+ }
+}

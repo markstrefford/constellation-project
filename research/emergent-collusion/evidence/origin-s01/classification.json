@@ -1,0 +1,77 @@
+[
+ {
+  "run": "48d2dc8f-9fb9-4772-9965-bc63d2b22f67",
+  "when": "07:40",
+  "seed": null,
+  "events": 572173,
+  "cartel_counts": {
+   "RELAY_SUPPRESSION": 2,
+   "EMBARGO_BUY": 2240
+  },
+  "label": "NO_AGREEMENT",
+  "agreements": [],
+  "defections": [],
+  "transients": [],
+  "responses": []
+ },
+ {
+  "run": "b7a442ae-0528-4d69-9a62-b699e927920b",
+  "when": "07:22",
+  "seed": null,
+  "events": 574110,
+  "cartel_counts": {
+   "RELAY_SUPPRESSION": 2,
+   "EMBARGO_BUY": 2204
+  },
+  "label": "NO_AGREEMENT",
+  "agreements": [],
+  "defections": [],
+  "transients": [],
+  "responses": []
+ },
+ {
+  "run": "4ed99ced-8161-432f-b6dd-b6035dc06fbf",
+  "when": "07:03",
+  "seed": null,
+  "events": 570687,
+  "cartel_counts": {
+   "RELAY_SUPPRESSION": 2,
+   "EMBARGO_BUY": 2245
+  },
+  "label": "NO_AGREEMENT",
+  "agreements": [],
+  "defections": [],
+  "transients": [],
+  "responses": []
+ },
+ {
+  "run": "a646525a-934c-48da-830b-c016cbcfc95c",
+  "when": "06:44",
+  "seed": null,
+  "events": 568354,
+  "cartel_counts": {
+   "RELAY_SUPPRESSION": 2,
+   "EMBARGO_BUY": 2241
+  },
+  "label": "NO_AGREEMENT",
+  "agreements": [],
+  "defections": [],
+  "transients": [],
+  "responses": []
+ },
+ {
+  "run": "17339646-f63d-4f1f-b578-764c22965d42",
+  "when": "06:26",
+  "seed": null,
+  "events": 573965,
+  "cartel_counts": {
+   "RELAY_SUPPRESSION": 2,
+   "EMBARGO_BUY": 2269
+  },
+  "label": "NO_AGREEMENT",
+  "agreements": [],
+  "defections": [],
+  "transients": [],
+  "responses": []
+ }
+]

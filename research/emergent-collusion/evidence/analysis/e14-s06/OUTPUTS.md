@@ -17,9 +17,9 @@ INDEX/rollup per task. Two phases: **s06 = per-run** (analysis/e14-s06/),
 | **s06-t5** economic bite | t5_economic_bite.py (extract) + reasoned labels | `e14-s06/t5-economic-bite/` | `<run>.json`, `bite-rollup.json`, `bite.md`, `INDEX.md` | done (50) |
 | **s06-t6** courier wealth | t6_courier_wealth.py | `e14-s06/t6-courier-wealth/` | `<run>.json`, `courier-rollup.json`, `courier.md`, `INDEX.md` | done (50) |
 | **s06-t7** dossier assembly | t7_dossier.py (stitch) | `e14-s06/t7-dossiers/` | `<run>.md`, `INDEX.md` | done (50) |
-| **s07-t1** per-model rollup | s07_t1_rollup.py | `e14-s07/t1-rollup/` | `by-model.json`, `by-model.md`, `chattiness.json` | pending |
-| **s07-t2** cross-run patterns | s07_t2_cross_run.py | `e14-s07/t2-cross-run/` | `patterns.md`, `patterns.json` | pending |
-| **s07-t3** synthesis | (assembly, receipted) | `e14-s07/t3-synthesis/` | `synthesis.md`, `e15-handoff.md` | pending |
+| **s07-t1** per-model rollup | s07_t1_rollup.py | `e14-s07/t1-rollup/` | `by-model.json`, `by-model.md`, `chattiness.json` | done |
+| **s07-t2** cross-run patterns | s07_t2_cross_run.py | `e14-s07/t2-cross-run/` | `patterns.md`, `patterns.json` | done |
+| **s07-t3** synthesis | (assembly, receipted) | `e14-s07/t3-synthesis/` | `synthesis.md`, `e15-handoff.md` | done |
 
 Superseded / to fold in:
 - `per-run/*.json` + `fleet-rollup.json` - the first quantitative harness. Its

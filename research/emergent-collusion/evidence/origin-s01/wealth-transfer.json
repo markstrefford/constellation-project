@@ -1,0 +1,65 @@
+{
+ "horizon_ticks": 1000,
+ "premium": 2.0,
+ "seeds": [
+  42,
+  7,
+  123,
+  2024,
+  99
+ ],
+ "wealth_means": {
+  "baseline": {
+   "galaxy": 1191759.6,
+   "victim": 33095.1,
+   "cartel": 119417.0,
+   "bystander": 1039247.5,
+   "concentration": 0.3917
+  },
+  "premium_only": {
+   "galaxy": 1189186.6,
+   "victim": 31305.1,
+   "cartel": 120382.6,
+   "bystander": 1037498.9,
+   "concentration": 0.3949
+  },
+  "both_levers": {
+   "galaxy": 1195693.8,
+   "victim": 29610.8,
+   "cartel": 120041.8,
+   "bystander": 1046041.2,
+   "concentration": 0.3892
+  },
+  "live": {
+   "galaxy": 1193208.0,
+   "victim": 30451.8,
+   "cartel": 120596.1,
+   "bystander": 1042160.0,
+   "concentration": 0.3896
+  }
+ },
+ "deltas_vs_baseline": {
+  "premium_only": {
+   "galaxy": -2573.0,
+   "victim": -1790.0,
+   "cartel": 965.6,
+   "bystander": -1748.6,
+   "concentration": 0.0032
+  },
+  "both_levers": {
+   "galaxy": 3934.2,
+   "victim": -3484.3,
+   "cartel": 624.8,
+   "bystander": 6793.7,
+   "concentration": -0.0025
+  },
+  "live": {
+   "galaxy": 1448.4,
+   "victim": -2643.3,
+   "cartel": 1179.1,
+   "bystander": 2912.5,
+   "concentration": -0.0021
+  }
+ },
+ "conservation_note": "delta galaxy ~0 => transfer; <0 => deadweight destruction"
+}

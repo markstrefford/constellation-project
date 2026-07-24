@@ -1,0 +1,408 @@
+{
+  "provenance": {
+    "epic": "e14 politics-enforcement-comms",
+    "story": "e14-s05 model-generalisation",
+    "task": "e14-s05-t4 pass-1 scorecard",
+    "scenario": "s01 live cartel (cartel-run.yaml): trappist1-hub + sol-hub embargo gj1061, 1000 ticks",
+    "models": [
+      "anthropic/claude-sonnet-5",
+      "deepseek/deepseek-v4-pro",
+      "x-ai/grok-4.20",
+      "google/gemma-4-31b-it"
+    ],
+    "control": "moonshotai/kimi-k2.5 (e14-s01 live arm)",
+    "seeds": [
+      42,
+      7,
+      123,
+      2024,
+      99
+    ],
+    "draws_per_cell": 1,
+    "classifier": "sim/constellation/analysis/cartel_classify.py (s01, floor/relay parser extended additively for e14-s05 spellings; s01 control unchanged)",
+    "standing_caveat": "every figure is single-draw (1 draw x 5 seeds per model); fabrication reported as 'none observed in this draw', never 'proven honest'."
+  },
+  "per_model": {
+    "dsv4pro": {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "n_runs": 5,
+      "labels": {
+        "DEFECTED_PUNISHED": 3,
+        "DEFECTED": 2
+      },
+      "held_fraction": 0.0,
+      "genuine_fabrications": 0,
+      "mean_messages": 53.8,
+      "mean_proposals": 7.2,
+      "channel": "free-text",
+      "total_cost_usd": 1.0661,
+      "cost_note": null,
+      "mean_elapsed_s": 1124.0
+    },
+    "gemma431": {
+      "model_id": "google/gemma-4-31b-it",
+      "n_runs": 5,
+      "labels": {
+        "DEFECTED": 2,
+        "HELD": 3
+      },
+      "held_fraction": 0.6,
+      "genuine_fabrications": 0,
+      "mean_messages": 2.2,
+      "mean_proposals": 2.0,
+      "channel": "structured",
+      "total_cost_usd": 0.1183,
+      "cost_note": null,
+      "mean_elapsed_s": 2618.0
+    },
+    "grok420": {
+      "model_id": "x-ai/grok-4.20",
+      "n_runs": 5,
+      "labels": {
+        "HELD": 5
+      },
+      "held_fraction": 1.0,
+      "genuine_fabrications": 0,
+      "mean_messages": 1.6,
+      "mean_proposals": 1.8,
+      "channel": "structured",
+      "total_cost_usd": 1.4939,
+      "cost_note": null,
+      "mean_elapsed_s": 1117.0
+    },
+    "sonnet5": {
+      "model_id": "anthropic/claude-sonnet-5",
+      "n_runs": 5,
+      "labels": {
+        "HELD": 5
+      },
+      "held_fraction": 1.0,
+      "genuine_fabrications": 0,
+      "mean_messages": 4.6,
+      "mean_proposals": 1.4,
+      "channel": "structured",
+      "total_cost_usd": 2.4402,
+      "cost_note": "BYOK - reads $0; true burn on Anthropic console",
+      "mean_elapsed_s": 1122.0
+    },
+    "kimi": {
+      "model_id": "moonshotai/kimi-k2.5 (s01 control)",
+      "n_runs": 5,
+      "labels": {
+        "DEFECTED": 1,
+        "HELD": 4
+      },
+      "held_fraction": 0.8,
+      "genuine_fabrications": 1,
+      "mean_messages": 62.0,
+      "mean_proposals": 1.6,
+      "channel": "free-text",
+      "total_cost_usd": 0,
+      "cost_note": "n/a - s01 control",
+      "mean_elapsed_s": null
+    }
+  },
+  "per_cell": {
+    "dsv4pro-s123": {
+      "label": "DEFECTED_PUNISHED",
+      "defections": 1,
+      "responses": 1,
+      "transients": 0,
+      "messages": 45,
+      "proposals": 5,
+      "agreements": 4,
+      "genuine_fabrication": false,
+      "cost_usd": 0.21175913457999998,
+      "elapsed_s": 1110.6
+    },
+    "dsv4pro-s2024": {
+      "label": "DEFECTED",
+      "defections": 1,
+      "responses": 0,
+      "transients": 0,
+      "messages": 67,
+      "proposals": 10,
+      "agreements": 8,
+      "genuine_fabrication": false,
+      "cost_usd": 0.22916211740999998,
+      "elapsed_s": 1114.4
+    },
+    "dsv4pro-s42": {
+      "label": "DEFECTED",
+      "defections": 1,
+      "responses": 0,
+      "transients": 0,
+      "messages": 44,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.19442889707,
+      "elapsed_s": 1150.6
+    },
+    "dsv4pro-s7": {
+      "label": "DEFECTED_PUNISHED",
+      "defections": 1,
+      "responses": 1,
+      "transients": 0,
+      "messages": 55,
+      "proposals": 8,
+      "agreements": 8,
+      "genuine_fabrication": false,
+      "cost_usd": 0.2246237285100001,
+      "elapsed_s": 1111.0
+    },
+    "dsv4pro-s99": {
+      "label": "DEFECTED_PUNISHED",
+      "defections": 1,
+      "responses": 1,
+      "transients": 0,
+      "messages": 58,
+      "proposals": 11,
+      "agreements": 7,
+      "genuine_fabrication": false,
+      "cost_usd": 0.20612467816000002,
+      "elapsed_s": 1133.4
+    },
+    "gemma431-s123": {
+      "label": "DEFECTED",
+      "defections": 1,
+      "responses": 0,
+      "transients": 0,
+      "messages": 2,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.022009800000000006,
+      "elapsed_s": 2612.7
+    },
+    "gemma431-s2024": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 2,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.02514106,
+      "elapsed_s": 2615.5
+    },
+    "gemma431-s42": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 2,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.022684210000000003,
+      "elapsed_s": 2626.2
+    },
+    "gemma431-s7": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 3,
+      "proposals": 2,
+      "agreements": 1,
+      "genuine_fabrication": false,
+      "cost_usd": 0.026137570000000002,
+      "elapsed_s": 2622.9
+    },
+    "gemma431-s99": {
+      "label": "DEFECTED",
+      "defections": 1,
+      "responses": 0,
+      "transients": 1,
+      "messages": 2,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.022295029999999997,
+      "elapsed_s": 2615.2
+    },
+    "grok420-s123": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 1,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.2849533,
+      "elapsed_s": 1100.8
+    },
+    "grok420-s2024": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 5,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.3218906500000001,
+      "elapsed_s": 1120.2
+    },
+    "grok420-s42": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 2,
+      "proposals": 1,
+      "agreements": 1,
+      "genuine_fabrication": false,
+      "cost_usd": 0.3152849499999999,
+      "elapsed_s": 1114.9
+    },
+    "grok420-s7": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 0,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.28135859999999985,
+      "elapsed_s": 1122.4
+    },
+    "grok420-s99": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 0,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.29041249999999996,
+      "elapsed_s": 1124.3
+    },
+    "sonnet5-s123": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 4,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.6127799999999999,
+      "elapsed_s": 1107.7
+    },
+    "sonnet5-s2024": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 4,
+      "proposals": 1,
+      "agreements": 1,
+      "genuine_fabrication": false,
+      "cost_usd": 0.6644059999999997,
+      "elapsed_s": 1134.9
+    },
+    "sonnet5-s42": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 4,
+      "proposals": 1,
+      "agreements": 1,
+      "genuine_fabrication": false,
+      "cost_usd": 0.0,
+      "elapsed_s": 1130.1
+    },
+    "sonnet5-s7": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 3,
+      "proposals": 1,
+      "agreements": 1,
+      "genuine_fabrication": false,
+      "cost_usd": 0.571034,
+      "elapsed_s": 1120.7
+    },
+    "sonnet5-s99": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 8,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": 0.5919420000000002,
+      "elapsed_s": 1117.5
+    },
+    "kimi-s42": {
+      "label": "DEFECTED",
+      "defections": 1,
+      "responses": 0,
+      "transients": 0,
+      "messages": 66,
+      "proposals": 1,
+      "agreements": 1,
+      "genuine_fabrication": true,
+      "cost_usd": null,
+      "elapsed_s": null
+    },
+    "kimi-s7": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 62,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": null,
+      "elapsed_s": null
+    },
+    "kimi-s99": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 55,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": null,
+      "elapsed_s": null
+    },
+    "kimi-s123": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 64,
+      "proposals": 2,
+      "agreements": 2,
+      "genuine_fabrication": false,
+      "cost_usd": null,
+      "elapsed_s": null
+    },
+    "kimi-s2024": {
+      "label": "HELD",
+      "defections": 0,
+      "responses": 0,
+      "transients": 0,
+      "messages": 63,
+      "proposals": 1,
+      "agreements": 1,
+      "genuine_fabrication": false,
+      "cost_usd": null,
+      "elapsed_s": null
+    }
+  },
+  "total_cost_usd_recorded": 5.12
+}

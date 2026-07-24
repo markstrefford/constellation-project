@@ -1,0 +1,18 @@
+# Raw R2 event logs - bulk data kept locally for analysis, never committed.
+# Present in the pack so analysis lives in one place; not part of the published artefact.
+**/raw-r2/
+*.events.json.gz
+
+.DS_Store
+
+# e14-s06 recorded prompts (raw)
+**/decisions/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Heavy intermediate machine-spine traces - kept local for reproduction,
+# not part of the published pack (readable .md twins + result summaries are)
+**/analysis/e14-s06/t2-telemetry/*.json
+**/analysis/e14-s06/t1-governor-trace/*.json

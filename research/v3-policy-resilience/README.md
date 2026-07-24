@@ -242,5 +242,7 @@ Caveats: the galaxy's hub-and-spoke topology makes total coalitions easier
 to assemble than real geography; colony survival under siege partly reflects
 a known health-model quirk (a fully starved planet stops degrading), which
 is why dependence claims rest on supply collapse, not death counts alone.
-Full artefacts — world configs, sweep tooling, evidence JSON, design
-journals — live in the CONSTELLATION repository.*
+Experiment 3's evidence (the dependence validation and the full premium
+grid) ships alongside this note in `evidence/`; remaining artefacts —
+world configs, sweep tooling, design journals — live in the CONSTELLATION
+repository.*

@@ -1,0 +1,1868 @@
+{
+  "run_id": "gemma431-s110",
+  "model": "gemma431",
+  "seed": 110,
+  "source_file": "pass2/raw-r2/gemma431-s110.events.json.gz",
+  "baseline_file": "baseline/raw-r2/baseline-s110.events.json.gz",
+  "final_tick": 999,
+  "baseline_final_tick": 999,
+  "populations": {
+    "gj1061_local": {
+      "cartel": {
+        "n": 6,
+        "mean": 6200.920789787754,
+        "min": 2505.0438045685773,
+        "max": 10248.624675412662,
+        "median": 5935.020258716244,
+        "stdev": 3688.5751352855686,
+        "n_dead": 0,
+        "death_reasons": {}
+      },
+      "baseline": {
+        "n": 6,
+        "mean": 7716.128622341009,
+        "min": 4893.569638661394,
+        "max": 10961.80733578902,
+        "median": 7400.099398307985,
+        "stdev": 2816.9101434779795,
+        "n_dead": 0,
+        "death_reasons": {}
+      },
+      "delta": {
+        "mean": -1515.2078325532548,
+        "min": -2388.5258340928162,
+        "max": -713.1826603763584,
+        "median": -1465.0791395917413,
+        "n_dead": 0
+      },
+      "cartel_agents": [
+        {
+          "agent": "local-courier-058",
+          "wealth": 2560.7330626424337,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-059",
+          "wealth": 2505.3513700322237,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-060",
+          "wealth": 2505.0438045685773,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-118",
+          "wealth": 10076.464371280572,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-119",
+          "wealth": 9309.307454790054,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-120",
+          "wealth": 10248.624675412662,
+          "alive": true,
+          "death_reason": null
+        }
+      ],
+      "baseline_agents": [
+        {
+          "agent": "local-courier-058",
+          "wealth": 4930.647541077334,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-059",
+          "wealth": 4893.569638661394,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-060",
+          "wealth": 4931.960091023429,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-118",
+          "wealth": 9868.238705592541,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-119",
+          "wealth": 10961.80733578902,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-120",
+          "wealth": 10710.548421902335,
+          "alive": true,
+          "death_reason": null
+        }
+      ]
+    },
+    "galactic_freighter": {
+      "cartel": {
+        "n": 13,
+        "mean": 2750.819623039,
+        "min": 1030.4300043210953,
+        "max": 6706.88038166614,
+        "median": 2576.4561444876763,
+        "stdev": 1769.054915041146,
+        "n_dead": 1,
+        "death_reasons": {
+          "fuel_exhaustion": 1
+        }
+      },
+      "baseline": {
+        "n": 13,
+        "mean": 2382.4451544631643,
+        "min": 1038.6634849900904,
+        "max": 5366.792370405922,
+        "median": 2575.5943350970697,
+        "stdev": 1241.4344974483238,
+        "n_dead": 0,
+        "death_reasons": {}
+      },
+      "delta": {
+        "mean": 368.37446857583564,
+        "min": -8.233480668995071,
+        "max": 1340.088011260218,
+        "median": 0.8618093906065951,
+        "n_dead": 1
+      },
+      "cartel_agents": [
+        {
+          "agent": "galactic-freighter-001",
+          "wealth": 6706.88038166614,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-002",
+          "wealth": 3007.3391733397953,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-003",
+          "wealth": 1346.2479666799231,
+          "alive": false,
+          "death_reason": "fuel_exhaustion"
+        },
+        {
+          "agent": "galactic-freighter-004",
+          "wealth": 2725.409672422958,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-005",
+          "wealth": 1100.6795550109066,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-006",
+          "wealth": 5612.717771352594,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-007",
+          "wealth": 1030.4300043210953,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-008",
+          "wealth": 1054.103559736049,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-009",
+          "wealth": 1125.8122408617528,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-010",
+          "wealth": 2959.0108285090723,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-011",
+          "wealth": 4485.404107963933,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-012",
+          "wealth": 2576.4561444876763,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-013",
+          "wealth": 2030.1636931551043,
+          "alive": true,
+          "death_reason": null
+        }
+      ],
+      "baseline_agents": [
+        {
+          "agent": "galactic-freighter-001",
+          "wealth": 3562.0859363195905,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-002",
+          "wealth": 1639.5532675147624,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-003",
+          "wealth": 2776.7465951046593,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-004",
+          "wealth": 3382.335548536915,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-005",
+          "wealth": 1092.643061016306,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-006",
+          "wealth": 2575.5943350970697,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-007",
+          "wealth": 1048.926021424795,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-008",
+          "wealth": 1049.3743821430753,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-009",
+          "wealth": 1038.6634849900904,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-010",
+          "wealth": 1701.6011101234685,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-011",
+          "wealth": 5366.792370405922,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-012",
+          "wealth": 2994.334397797004,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "galactic-freighter-013",
+          "wealth": 2743.1364975474785,
+          "alive": true,
+          "death_reason": null
+        }
+      ]
+    },
+    "rest_local": {
+      "cartel": {
+        "n": 127,
+        "mean": 4671.382662449473,
+        "min": 377.91201620898556,
+        "max": 18134.046083353092,
+        "median": 3854.5959248882314,
+        "stdev": 2980.5351323499854,
+        "n_dead": 2,
+        "death_reasons": {
+          "fuel_exhaustion": 2
+        }
+      },
+      "baseline": {
+        "n": 127,
+        "mean": 4369.890596085886,
+        "min": 741.4065812574993,
+        "max": 21991.837137251125,
+        "median": 3729.290844925483,
+        "stdev": 2946.0011308131984,
+        "n_dead": 1,
+        "death_reasons": {
+          "fuel_exhaustion": 1
+        }
+      },
+      "delta": {
+        "mean": 301.4920663635876,
+        "min": -363.4945650485137,
+        "max": -3857.7910538980323,
+        "median": 125.30507996274855,
+        "n_dead": 1
+      },
+      "cartel_agents": [
+        {
+          "agent": "local-courier-001",
+          "wealth": 2965.026354681261,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-002",
+          "wealth": 1754.1428001593101,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-003",
+          "wealth": 2400.0837478749368,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-004",
+          "wealth": 5275.580436226921,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-005",
+          "wealth": 12677.003413390843,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-006",
+          "wealth": 4634.026885696379,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-007",
+          "wealth": 3690.3034452315683,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-008",
+          "wealth": 6080.93761723245,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-009",
+          "wealth": 5071.926812672,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-010",
+          "wealth": 3805.59139714873,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-011",
+          "wealth": 6540.001617430669,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-012",
+          "wealth": 3231.8152998406404,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-013",
+          "wealth": 15254.759628018628,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-014",
+          "wealth": 5379.845964116373,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-015",
+          "wealth": 4732.796600953025,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-016",
+          "wealth": 9270.69729363947,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-017",
+          "wealth": 3883.5980519504246,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-018",
+          "wealth": 4263.86785117614,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-019",
+          "wealth": 1909.793011825219,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-020",
+          "wealth": 5337.127988658887,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-021",
+          "wealth": 9577.311200317514,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-022",
+          "wealth": 4371.697022066667,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-023",
+          "wealth": 1510.272454797408,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-024",
+          "wealth": 2149.514816441813,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-025",
+          "wealth": 5833.256362599244,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-026",
+          "wealth": 2047.9856258259238,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-027",
+          "wealth": 2228.180555231828,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-028",
+          "wealth": 6054.265412411775,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-029",
+          "wealth": 2043.6044437492078,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-030",
+          "wealth": 3671.730643992294,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-031",
+          "wealth": 2431.158002100384,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-032",
+          "wealth": 11542.119502907528,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-033",
+          "wealth": 470.6218275381343,
+          "alive": false,
+          "death_reason": "fuel_exhaustion"
+        },
+        {
+          "agent": "local-courier-034",
+          "wealth": 2289.5103731957383,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-035",
+          "wealth": 3555.3803002706936,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-036",
+          "wealth": 646.7549509543999,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-037",
+          "wealth": 4247.498107001437,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-038",
+          "wealth": 7247.637822930928,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-039",
+          "wealth": 10424.649589160503,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-040",
+          "wealth": 2550.4242051920487,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-041",
+          "wealth": 3493.3274449418514,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-042",
+          "wealth": 6318.752585768154,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-043",
+          "wealth": 5425.38922439288,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-044",
+          "wealth": 2156.3660673663767,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-045",
+          "wealth": 8266.17238001419,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-046",
+          "wealth": 5135.353205701261,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-047",
+          "wealth": 6758.546771618784,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-048",
+          "wealth": 2215.3695800390346,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-049",
+          "wealth": 4553.856370076933,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-050",
+          "wealth": 2927.734247615985,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-051",
+          "wealth": 3047.8620407042163,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-052",
+          "wealth": 1330.2938350874524,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-053",
+          "wealth": 1548.0447677850423,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-054",
+          "wealth": 2808.4824234827774,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-055",
+          "wealth": 7506.825018326395,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-056",
+          "wealth": 6874.90302600214,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-057",
+          "wealth": 6827.26796657972,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-061",
+          "wealth": 7371.9402540485235,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-062",
+          "wealth": 3346.5858321645296,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-063",
+          "wealth": 3962.007213470543,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-064",
+          "wealth": 3981.499902578578,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-065",
+          "wealth": 3137.8591426474654,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-066",
+          "wealth": 3312.156294768177,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-067",
+          "wealth": 3253.6341076313215,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-068",
+          "wealth": 2377.930570655068,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-069",
+          "wealth": 3595.499577327153,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-070",
+          "wealth": 2416.056304036996,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-071",
+          "wealth": 4077.6145393010424,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-072",
+          "wealth": 3107.3872717806357,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-073",
+          "wealth": 5020.19439376446,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-074",
+          "wealth": 4505.462677776014,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-075",
+          "wealth": 7846.380414685228,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-076",
+          "wealth": 2622.6498591717427,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-077",
+          "wealth": 11513.40569723503,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-078",
+          "wealth": 5412.898526522737,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-079",
+          "wealth": 3552.464829091814,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-080",
+          "wealth": 5279.028774342922,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-081",
+          "wealth": 3397.7519399880207,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-082",
+          "wealth": 4024.5209235116727,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-083",
+          "wealth": 3854.5959248882314,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-084",
+          "wealth": 2329.0345502220566,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-085",
+          "wealth": 1770.4701022985032,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-086",
+          "wealth": 2049.5895255292166,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-087",
+          "wealth": 2834.8744145834053,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-088",
+          "wealth": 3467.168476380473,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-089",
+          "wealth": 4583.496030636114,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-090",
+          "wealth": 2400.6003233843157,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-091",
+          "wealth": 3824.3000623884886,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-092",
+          "wealth": 2726.1507556568404,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-093",
+          "wealth": 12994.113813115908,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-094",
+          "wealth": 4682.117264780157,
+          "alive": false,
+          "death_reason": "fuel_exhaustion"
+        },
+        {
+          "agent": "local-courier-095",
+          "wealth": 377.91201620898556,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-096",
+          "wealth": 2784.335133673091,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-097",
+          "wealth": 18134.046083353092,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-098",
+          "wealth": 10712.485721965546,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-099",
+          "wealth": 2525.875762902785,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-100",
+          "wealth": 3808.898259263285,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-101",
+          "wealth": 5470.948772581534,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-102",
+          "wealth": 4208.477137858518,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-103",
+          "wealth": 5670.995544407257,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-104",
+          "wealth": 3041.9601229474515,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-105",
+          "wealth": 4310.846466943058,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-106",
+          "wealth": 11262.631386917179,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-107",
+          "wealth": 5908.680954581653,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-108",
+          "wealth": 2569.998897607501,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-109",
+          "wealth": 2378.1809515385794,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-110",
+          "wealth": 2369.848773597795,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-111",
+          "wealth": 2865.6144247448915,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-112",
+          "wealth": 2945.69364915798,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-113",
+          "wealth": 2275.8982659725057,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-114",
+          "wealth": 2509.8391176427153,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-115",
+          "wealth": 6987.049126295364,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-116",
+          "wealth": 8259.525154800058,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-117",
+          "wealth": 7105.043478930846,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-121",
+          "wealth": 4742.498482801866,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-122",
+          "wealth": 3894.852272245112,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-123",
+          "wealth": 4505.911994830825,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-124",
+          "wealth": 6793.45524894093,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-125",
+          "wealth": 3731.8265862479825,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-126",
+          "wealth": 7839.13235609256,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-127",
+          "wealth": 1299.9870458471232,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-128",
+          "wealth": 6840.286873687247,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-129",
+          "wealth": 6438.43470404143,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-130",
+          "wealth": 3506.6382950940615,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-131",
+          "wealth": 1964.7049524525069,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-132",
+          "wealth": 1428.0559724611626,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-133",
+          "wealth": 6916.541459972696,
+          "alive": true,
+          "death_reason": null
+        }
+      ],
+      "baseline_agents": [
+        {
+          "agent": "local-courier-001",
+          "wealth": 3459.3807225113574,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-002",
+          "wealth": 3892.609185532147,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-003",
+          "wealth": 3952.141498091152,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-004",
+          "wealth": 2953.242119252017,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-005",
+          "wealth": 4873.350389675271,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-006",
+          "wealth": 4405.593752626699,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-007",
+          "wealth": 3858.5155281475145,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-008",
+          "wealth": 1362.498009639779,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-009",
+          "wealth": 3345.5580434701837,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-010",
+          "wealth": 5856.902767023241,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-011",
+          "wealth": 3509.2007765317026,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-012",
+          "wealth": 4480.836490671134,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-013",
+          "wealth": 3999.916709306341,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-014",
+          "wealth": 3810.567798202657,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-015",
+          "wealth": 6328.653933372696,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-016",
+          "wealth": 4511.251804180783,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-017",
+          "wealth": 8558.100597069622,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-018",
+          "wealth": 2965.698206165531,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-019",
+          "wealth": 6164.328861063264,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-020",
+          "wealth": 2903.488878023934,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-021",
+          "wealth": 6817.543952449116,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-022",
+          "wealth": 5157.242635604472,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-023",
+          "wealth": 6757.025485922334,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-024",
+          "wealth": 2278.375224122276,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-025",
+          "wealth": 2795.055571514377,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-026",
+          "wealth": 2574.595640488465,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-027",
+          "wealth": 3273.9548990487015,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-028",
+          "wealth": 6350.766574215505,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-029",
+          "wealth": 2875.2844911472766,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-030",
+          "wealth": 2729.3680983108798,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-031",
+          "wealth": 1688.6649057592936,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-032",
+          "wealth": 14583.438327703052,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-033",
+          "wealth": 981.9680558258402,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-034",
+          "wealth": 1902.7640546197777,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-035",
+          "wealth": 741.4065812574993,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-036",
+          "wealth": 3509.2950620255624,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-037",
+          "wealth": 940.9514440206417,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-038",
+          "wealth": 3001.2249204208115,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-039",
+          "wealth": 11633.716737441451,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-040",
+          "wealth": 2874.4088083539677,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-041",
+          "wealth": 6930.580071820738,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-042",
+          "wealth": 2498.8816636621004,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-043",
+          "wealth": 7826.23676995813,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-044",
+          "wealth": 3825.5368547329826,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-045",
+          "wealth": 8345.87713114619,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-046",
+          "wealth": 6711.002364516756,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-047",
+          "wealth": 2746.0956481015446,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-048",
+          "wealth": 793.5049410894264,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-049",
+          "wealth": 2580.682522360667,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-050",
+          "wealth": 2777.464524838133,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-051",
+          "wealth": 2603.7902505100856,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-052",
+          "wealth": 855.2519478766719,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-053",
+          "wealth": 1364.1026246621382,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-054",
+          "wealth": 982.8578330915601,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-055",
+          "wealth": 5168.957346178082,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-056",
+          "wealth": 4737.670407758631,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-057",
+          "wealth": 4710.900369523419,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-061",
+          "wealth": 3960.245023732396,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-062",
+          "wealth": 4770.058120382091,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-063",
+          "wealth": 6993.085984912637,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-064",
+          "wealth": 2442.6359952144057,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-065",
+          "wealth": 6741.6768351274695,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-066",
+          "wealth": 4447.928112465893,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-067",
+          "wealth": 2662.4429625375574,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-068",
+          "wealth": 2322.6851384549914,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-069",
+          "wealth": 5062.864773319015,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-070",
+          "wealth": 5374.44454867017,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-071",
+          "wealth": 2247.2091833602226,
+          "alive": false,
+          "death_reason": "fuel_exhaustion"
+        },
+        {
+          "agent": "local-courier-072",
+          "wealth": 3110.704833944461,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-073",
+          "wealth": 1790.269730978754,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-074",
+          "wealth": 4721.167476925952,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-075",
+          "wealth": 6007.245594729933,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-076",
+          "wealth": 5439.584319010176,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-077",
+          "wealth": 6476.448415914241,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-078",
+          "wealth": 5405.143468892759,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-079",
+          "wealth": 4800.528695453012,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-080",
+          "wealth": 3038.2681879290017,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-081",
+          "wealth": 3014.6636800638553,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-082",
+          "wealth": 5015.937976019417,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-083",
+          "wealth": 4352.923962073144,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-084",
+          "wealth": 3012.0135175517266,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-085",
+          "wealth": 3981.813647605627,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-086",
+          "wealth": 2945.4079084406117,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-087",
+          "wealth": 3023.916717596864,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-088",
+          "wealth": 3350.264122691583,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-089",
+          "wealth": 2678.446757842751,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-090",
+          "wealth": 2085.3844158110473,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-091",
+          "wealth": 1948.785191222114,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-092",
+          "wealth": 2815.593355491941,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-093",
+          "wealth": 21991.837137251125,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-094",
+          "wealth": 4380.280119091167,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-095",
+          "wealth": 2546.2658366328087,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-096",
+          "wealth": 3226.7533964214444,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-097",
+          "wealth": 15550.765581027325,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-098",
+          "wealth": 11848.429387363083,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-099",
+          "wealth": 2832.744796597171,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-100",
+          "wealth": 4763.9234132750325,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-101",
+          "wealth": 3729.290844925483,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-102",
+          "wealth": 5799.637667491114,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-103",
+          "wealth": 3124.9976585342633,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-104",
+          "wealth": 6238.426880497536,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-105",
+          "wealth": 6274.615448156536,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-106",
+          "wealth": 9247.80428392018,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-107",
+          "wealth": 3263.2752833158834,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-108",
+          "wealth": 2974.62591205345,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-109",
+          "wealth": 1978.4056914099874,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-110",
+          "wealth": 792.2325769156662,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-111",
+          "wealth": 2473.4977757471183,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-112",
+          "wealth": 2905.568791925626,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-113",
+          "wealth": 2339.2155360048264,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-114",
+          "wealth": 2217.790487958138,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-115",
+          "wealth": 7701.464872003343,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-116",
+          "wealth": 7916.238974642282,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-117",
+          "wealth": 6392.1087221396,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-121",
+          "wealth": 1210.7991805416991,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-122",
+          "wealth": 3853.4427583150655,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-123",
+          "wealth": 5758.602685632024,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-124",
+          "wealth": 7286.389541277427,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-125",
+          "wealth": 5221.613873053791,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-126",
+          "wealth": 2608.559332547532,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-127",
+          "wealth": 2129.5306270993583,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-128",
+          "wealth": 4214.074778128434,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-129",
+          "wealth": 3473.7056936748454,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-130",
+          "wealth": 4523.621143226061,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-131",
+          "wealth": 5905.458207152506,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-132",
+          "wealth": 2036.8222201977364,
+          "alive": true,
+          "death_reason": null
+        },
+        {
+          "agent": "local-courier-133",
+          "wealth": 4085.2191197593293,
+          "alive": true,
+          "death_reason": null
+        }
+      ]
+    }
+  }
+}

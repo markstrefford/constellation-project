@@ -1,0 +1,1159 @@
+{
+  "run_id": "kimi-s111",
+  "model": "kimi",
+  "seed": 111,
+  "pass": "pass2",
+  "final_tick": 999,
+  "n_planets": 68,
+  "n_alive": 68,
+  "n_dead": 0,
+  "dead_planets": [],
+  "n_dead_baseline": 3,
+  "dead_planets_baseline": [
+    "epsiloneridani-b",
+    "tauceti-b",
+    "yzceti-b"
+  ],
+  "baseline_available": true,
+  "baseline_wealth_mismatch_count": 0,
+  "planets": {
+    "sol-hub": {
+      "wealth": 113665.75018688187,
+      "health_multiplier": 0.998905036094008,
+      "alive": true,
+      "prices": {
+        "food": 0.09201973898462969,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 111189.4,
+      "wealth_delta": 2476.350186881871,
+      "wealth_delta_pct": 2.2271459211776223,
+      "health_multiplier_baseline": 0.9423532295539806,
+      "alive_baseline": true
+    },
+    "ross128-hub": {
+      "wealth": 109432.77283477121,
+      "health_multiplier": 0.9943777830810179,
+      "alive": true,
+      "prices": {
+        "food": 0.4453029356087984,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01277695990289976
+      },
+      "wealth_baseline": 110087.4,
+      "wealth_delta": -654.6271652287833,
+      "wealth_delta_pct": -0.5946431337544381,
+      "health_multiplier_baseline": 0.9303670885171453,
+      "alive_baseline": true
+    },
+    "61cygni-hub": {
+      "wealth": 106287.86431460557,
+      "health_multiplier": 0.9999493005792061,
+      "alive": true,
+      "prices": {
+        "food": 0.2633246701080728,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.010000038721738701
+      },
+      "wealth_baseline": 106070.4,
+      "wealth_delta": 217.46431460557505,
+      "wealth_delta_pct": 0.20501885031599304,
+      "health_multiplier_baseline": 0.9930148399014482,
+      "alive_baseline": true
+    },
+    "sirius-hub": {
+      "wealth": 109141.4506915051,
+      "health_multiplier": 0.9999999999998879,
+      "alive": true,
+      "prices": {
+        "food": 0.5962008488846224,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 106508.1,
+      "wealth_delta": 2633.3506915050966,
+      "wealth_delta_pct": 2.4724417124191462,
+      "health_multiplier_baseline": 0.8814923588800335,
+      "alive_baseline": true
+    },
+    "epsilonindi-hub": {
+      "wealth": 108224.9540187035,
+      "health_multiplier": 0.9999999970950387,
+      "alive": true,
+      "prices": {
+        "food": 0.6605275124141717,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 107776.8,
+      "wealth_delta": 448.1540187034989,
+      "wealth_delta_pct": 0.4158167794028946,
+      "health_multiplier_baseline": 0.9852245277700997,
+      "alive_baseline": true
+    },
+    "trappist1-hub": {
+      "wealth": 106730.93058983718,
+      "health_multiplier": 0.9973061439817646,
+      "alive": true,
+      "prices": {
+        "food": 0.010017986157419324,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.010000000011048787
+      },
+      "wealth_baseline": 104687.2,
+      "wealth_delta": 2043.730589837185,
+      "wealth_delta_pct": 1.9522258593573858,
+      "health_multiplier_baseline": 0.9999999709277356,
+      "alive_baseline": true
+    },
+    "kepler442-hub": {
+      "wealth": 86868.51465529147,
+      "health_multiplier": 0.7062186869713247,
+      "alive": true,
+      "prices": {
+        "food": 1.2953889461243675,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 85964.0,
+      "wealth_delta": 904.5146552914666,
+      "wealth_delta_pct": 1.0522016836018178,
+      "health_multiplier_baseline": 0.6735774095867255,
+      "alive_baseline": true
+    },
+    "sol-mercury": {
+      "wealth": 13212.81475998345,
+      "health_multiplier": 0.8399120945344862,
+      "alive": true,
+      "prices": {
+        "food": 3.0,
+        "fuel_raw": 2.0,
+        "fuel_refined": 0.43688691484609926
+      },
+      "wealth_baseline": 167.8,
+      "wealth_delta": 13045.01475998345,
+      "wealth_delta_pct": 7774.144672218981,
+      "health_multiplier_baseline": 0.8651635853998366,
+      "alive_baseline": true
+    },
+    "sol-venus": {
+      "wealth": 204.30738521878297,
+      "health_multiplier": 0.1785077974885414,
+      "alive": true,
+      "prices": {
+        "food": 3.4214449809965704,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.010000032041493356
+      },
+      "wealth_baseline": 826.0,
+      "wealth_delta": -621.692614781217,
+      "wealth_delta_pct": -75.2654497313822,
+      "health_multiplier_baseline": 0.0985848253647067,
+      "alive_baseline": true
+    },
+    "sol-mars": {
+      "wealth": 12449.452449085382,
+      "health_multiplier": 0.21155837668810823,
+      "alive": true,
+      "prices": {
+        "food": 4.842266017400885,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 624.1,
+      "wealth_delta": 11825.352449085382,
+      "wealth_delta_pct": 1894.7848820838617,
+      "health_multiplier_baseline": 0.056524253901530194,
+      "alive_baseline": true
+    },
+    "sol-jupiter": {
+      "wealth": 15457.030730281822,
+      "health_multiplier": 0.5882224662766118,
+      "alive": true,
+      "prices": {
+        "food": 3.96050904734736,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.5649700736980918
+      },
+      "wealth_baseline": 17274.1,
+      "wealth_delta": -1817.0692697181767,
+      "wealth_delta_pct": -10.519038732658586,
+      "health_multiplier_baseline": 0.6750458225870731,
+      "alive_baseline": true
+    },
+    "sol-saturn": {
+      "wealth": 14362.033279256786,
+      "health_multiplier": 0.8964564204382998,
+      "alive": true,
+      "prices": {
+        "food": 0.08242568287123281,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.44814664086298844
+      },
+      "wealth_baseline": 18764.2,
+      "wealth_delta": -4402.166720743215,
+      "wealth_delta_pct": -23.460455125948428,
+      "health_multiplier_baseline": 0.9014375180370331,
+      "alive_baseline": true
+    },
+    "sol-uranus": {
+      "wealth": 14156.419192799574,
+      "health_multiplier": 0.6849871285984349,
+      "alive": true,
+      "prices": {
+        "food": 2.3061379417780743,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.3298707856257161
+      },
+      "wealth_baseline": 14950.3,
+      "wealth_delta": -793.8808072004249,
+      "wealth_delta_pct": -5.310132955194377,
+      "health_multiplier_baseline": 0.7287586185171834,
+      "alive_baseline": true
+    },
+    "sol-neptune": {
+      "wealth": 12.045618172117551,
+      "health_multiplier": 0.06060699892425302,
+      "alive": true,
+      "prices": {
+        "food": 9.585264880903015,
+        "fuel_raw": 0.01,
+        "fuel_refined": 25.330647739206846
+      },
+      "wealth_baseline": 12192.1,
+      "wealth_delta": -12180.054381827882,
+      "wealth_delta_pct": -99.90120144870762,
+      "health_multiplier_baseline": 0.9294611309951432,
+      "alive_baseline": true
+    },
+    "proxima-b": {
+      "wealth": 3296.262189242211,
+      "health_multiplier": 0.7002755047129394,
+      "alive": true,
+      "prices": {
+        "food": 2.0430030711338185,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 8825.9,
+      "wealth_delta": -5529.637810757788,
+      "wealth_delta_pct": -62.65239591155337,
+      "health_multiplier_baseline": 0.2322926385094414,
+      "alive_baseline": true
+    },
+    "proxima-c": {
+      "wealth": 5188.62131945175,
+      "health_multiplier": 0.31369828289403556,
+      "alive": true,
+      "prices": {
+        "food": 3.233195689410908,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 10694.5,
+      "wealth_delta": -5505.87868054825,
+      "wealth_delta_pct": -51.48327346344616,
+      "health_multiplier_baseline": 0.42991694627835914,
+      "alive_baseline": true
+    },
+    "alphacen-b": {
+      "wealth": 20528.03813101729,
+      "health_multiplier": 0.861050842651823,
+      "alive": true,
+      "prices": {
+        "food": 1.2825942941680089,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.030122202479212205
+      },
+      "wealth_baseline": 30482.7,
+      "wealth_delta": -9954.661868982712,
+      "wealth_delta_pct": -32.65675897798657,
+      "health_multiplier_baseline": 0.976204997532698,
+      "alive_baseline": true
+    },
+    "alphacen-c": {
+      "wealth": 2324.3756685978196,
+      "health_multiplier": 0.09479217236288376,
+      "alive": true,
+      "prices": {
+        "food": 5.954211944877436,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 9949.1,
+      "wealth_delta": -7624.724331402181,
+      "wealth_delta_pct": -76.63732731002985,
+      "health_multiplier_baseline": 0.03693352753461921,
+      "alive_baseline": true
+    },
+    "barnard-b": {
+      "wealth": 2715.3504021101285,
+      "health_multiplier": 0.1579730498861718,
+      "alive": true,
+      "prices": {
+        "food": 5.865304850274498,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 19995.9,
+      "wealth_delta": -17280.549597889873,
+      "wealth_delta_pct": -86.4204641846072,
+      "health_multiplier_baseline": 0.6964297182636896,
+      "alive_baseline": true
+    },
+    "barnard-c": {
+      "wealth": 3036.1583673406835,
+      "health_multiplier": 0.1960198734961833,
+      "alive": true,
+      "prices": {
+        "food": 5.907504279198556,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.010001459268982016
+      },
+      "wealth_baseline": 6897.0,
+      "wealth_delta": -3860.8416326593165,
+      "wealth_delta_pct": -55.97856506683075,
+      "health_multiplier_baseline": 0.0543488288680133,
+      "alive_baseline": true
+    },
+    "wolf359-b": {
+      "wealth": 17664.07980799106,
+      "health_multiplier": 0.9694695579137795,
+      "alive": true,
+      "prices": {
+        "food": 0.026524436935313818,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 19215.2,
+      "wealth_delta": -1551.1201920089406,
+      "wealth_delta_pct": -8.072360381411281,
+      "health_multiplier_baseline": 0.9256956071648144,
+      "alive_baseline": true
+    },
+    "lalande-b": {
+      "wealth": 27792.679688160355,
+      "health_multiplier": 0.996056674716677,
+      "alive": true,
+      "prices": {
+        "food": 0.010000006969192458,
+        "fuel_raw": 0.010613609320376246,
+        "fuel_refined": 0.1927795155986573
+      },
+      "wealth_baseline": 28508.8,
+      "wealth_delta": -716.1203118396443,
+      "wealth_delta_pct": -2.511927235939935,
+      "health_multiplier_baseline": 0.9969943181441528,
+      "alive_baseline": true
+    },
+    "procyon-b": {
+      "wealth": 26524.618113991026,
+      "health_multiplier": 0.6363035097911834,
+      "alive": true,
+      "prices": {
+        "food": 2.083765538684555,
+        "fuel_raw": 0.01207298060192798,
+        "fuel_refined": 0.01000000000000056
+      },
+      "wealth_baseline": 16367.7,
+      "wealth_delta": 10156.918113991025,
+      "wealth_delta_pct": 62.05464490423838,
+      "health_multiplier_baseline": 0.771735520791722,
+      "alive_baseline": true
+    },
+    "luytenstar-b": {
+      "wealth": 30899.66672530898,
+      "health_multiplier": 0.9973911236644822,
+      "alive": true,
+      "prices": {
+        "food": 0.044076699614532505,
+        "fuel_raw": 0.010613609320376246,
+        "fuel_refined": 0.341272429055008
+      },
+      "wealth_baseline": 30897.3,
+      "wealth_delta": 2.3667253089806763,
+      "wealth_delta_pct": 0.007659974525219603,
+      "health_multiplier_baseline": 0.9999473193931968,
+      "alive_baseline": true
+    },
+    "teegarden-b": {
+      "wealth": 23970.40946418975,
+      "health_multiplier": 0.23699710126646684,
+      "alive": true,
+      "prices": {
+        "food": 3.5496095190118377,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 23147.3,
+      "wealth_delta": 823.1094641897507,
+      "wealth_delta_pct": 3.555963175790484,
+      "health_multiplier_baseline": 0.4420288559759017,
+      "alive_baseline": true
+    },
+    "wolf1061-b": {
+      "wealth": 20746.664039927447,
+      "health_multiplier": 0.2932668516623025,
+      "alive": true,
+      "prices": {
+        "food": 2.9617352792448797,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 20029.8,
+      "wealth_delta": 716.8640399274482,
+      "wealth_delta_pct": 3.5789875082499485,
+      "health_multiplier_baseline": 0.9842450777991144,
+      "alive_baseline": true
+    },
+    "gj687-b": {
+      "wealth": 15696.346658520535,
+      "health_multiplier": 0.9993418680641689,
+      "alive": true,
+      "prices": {
+        "food": 0.608449633012264,
+        "fuel_raw": 0.011674970252413869,
+        "fuel_refined": 0.010000000000010046
+      },
+      "wealth_baseline": 10379.9,
+      "wealth_delta": 5316.4466585205355,
+      "wealth_delta_pct": 51.21866933708933,
+      "health_multiplier_baseline": 0.9979442259343287,
+      "alive_baseline": true
+    },
+    "gj687-c": {
+      "wealth": 15483.272161727415,
+      "health_multiplier": 0.7997585990063646,
+      "alive": true,
+      "prices": {
+        "food": 0.038718394916233384,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 18438.7,
+      "wealth_delta": -2955.427838272586,
+      "wealth_delta_pct": -16.02839591876101,
+      "health_multiplier_baseline": 0.9950564569719047,
+      "alive_baseline": true
+    },
+    "gj1002-b": {
+      "wealth": 20275.57940609458,
+      "health_multiplier": 0.6701299201985358,
+      "alive": true,
+      "prices": {
+        "food": 3.840864883573637,
+        "fuel_raw": 0.010613609320376246,
+        "fuel_refined": 0.21590987773022666
+      },
+      "wealth_baseline": 8214.7,
+      "wealth_delta": 12060.87940609458,
+      "wealth_delta_pct": 146.82069224797715,
+      "health_multiplier_baseline": 0.9262211821456572,
+      "alive_baseline": true
+    },
+    "gj1002-c": {
+      "wealth": 27821.43899932196,
+      "health_multiplier": 0.9568593563556148,
+      "alive": true,
+      "prices": {
+        "food": 0.01,
+        "fuel_raw": 0.010613609320376246,
+        "fuel_refined": 0.12830513217716638
+      },
+      "wealth_baseline": 30688.6,
+      "wealth_delta": -2867.1610006780393,
+      "wealth_delta_pct": -9.342755944155288,
+      "health_multiplier_baseline": 0.9985564421567463,
+      "alive_baseline": true
+    },
+    "ross248-b": {
+      "wealth": 27018.2377566842,
+      "health_multiplier": 0.5769114294247364,
+      "alive": true,
+      "prices": {
+        "food": 1.760377176818284,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 27046.1,
+      "wealth_delta": -27.86224331579797,
+      "wealth_delta_pct": -0.10301760074760491,
+      "health_multiplier_baseline": 0.999959448376953,
+      "alive_baseline": true
+    },
+    "ross248-c": {
+      "wealth": 31688.645528302128,
+      "health_multiplier": 0.775524236523797,
+      "alive": true,
+      "prices": {
+        "food": 0.13074474125698923,
+        "fuel_raw": 0.01,
+        "fuel_refined": 1.6000610081990683
+      },
+      "wealth_baseline": 33634.8,
+      "wealth_delta": -1946.1544716978751,
+      "wealth_delta_pct": -5.786133622610733,
+      "health_multiplier_baseline": 0.9936921102082664,
+      "alive_baseline": true
+    },
+    "struve2398-b": {
+      "wealth": 32339.441172812203,
+      "health_multiplier": 0.9999976445999854,
+      "alive": true,
+      "prices": {
+        "food": 0.837384876905324,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.7746383437763926
+      },
+      "wealth_baseline": 33113.2,
+      "wealth_delta": -773.7588271877939,
+      "wealth_delta_pct": -2.336708101868119,
+      "health_multiplier_baseline": 0.9914428157912605,
+      "alive_baseline": true
+    },
+    "struve2398-c": {
+      "wealth": 31072.85645918394,
+      "health_multiplier": 0.9904605214755985,
+      "alive": true,
+      "prices": {
+        "food": 0.010076178078820093,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.9487991880736153
+      },
+      "wealth_baseline": 32667.6,
+      "wealth_delta": -1594.74354081606,
+      "wealth_delta_pct": -4.8817285041327185,
+      "health_multiplier_baseline": 0.9941964437985857,
+      "alive_baseline": true
+    },
+    "groombridge34-b": {
+      "wealth": 28297.23024249061,
+      "health_multiplier": 0.8236025137703288,
+      "alive": true,
+      "prices": {
+        "food": 0.024221058391071634,
+        "fuel_raw": 0.01,
+        "fuel_refined": 1.2315901909689586
+      },
+      "wealth_baseline": 31659.9,
+      "wealth_delta": -3362.669757509393,
+      "wealth_delta_pct": -10.621226717422966,
+      "health_multiplier_baseline": 0.9999995245351313,
+      "alive_baseline": true
+    },
+    "kruger60-b": {
+      "wealth": 27864.09404501439,
+      "health_multiplier": 0.6999662492674859,
+      "alive": true,
+      "prices": {
+        "food": 0.46399154006203075,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 26876.1,
+      "wealth_delta": 987.9940450143913,
+      "wealth_delta_pct": 3.67610644778964,
+      "health_multiplier_baseline": 0.9183707819683972,
+      "alive_baseline": true
+    },
+    "altair-b": {
+      "wealth": 26236.404177930828,
+      "health_multiplier": 0.9629068135592869,
+      "alive": true,
+      "prices": {
+        "food": 0.012576048468150226,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 30277.3,
+      "wealth_delta": -4040.895822069171,
+      "wealth_delta_pct": -13.34628854643304,
+      "health_multiplier_baseline": 0.9986120630364165,
+      "alive_baseline": true
+    },
+    "70ophiuchi-b": {
+      "wealth": 30081.27466738311,
+      "health_multiplier": 0.999227688005687,
+      "alive": true,
+      "prices": {
+        "food": 0.1003897527007798,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 27079.7,
+      "wealth_delta": 3001.574667383109,
+      "wealth_delta_pct": 11.084224224725935,
+      "health_multiplier_baseline": 0.982483602691156,
+      "alive_baseline": true
+    },
+    "ross154-b": {
+      "wealth": 11021.505828856802,
+      "health_multiplier": 0.9917055386272224,
+      "alive": true,
+      "prices": {
+        "food": 0.6301292753906726,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 10089.8,
+      "wealth_delta": 931.7058288568023,
+      "wealth_delta_pct": 9.23413574953718,
+      "health_multiplier_baseline": 0.19553570648977278,
+      "alive_baseline": true
+    },
+    "epsiloneridani-b": {
+      "wealth": 11628.675498393513,
+      "health_multiplier": 0.1826275049709155,
+      "alive": true,
+      "prices": {
+        "food": 0.01000039996915335,
+        "fuel_raw": 0.01,
+        "fuel_refined": 4.159050681110015
+      },
+      "wealth_baseline": 9259.3,
+      "wealth_delta": 2369.375498393514,
+      "wealth_delta_pct": 25.589142790421675,
+      "health_multiplier_baseline": 0.029840376748546837,
+      "alive_baseline": false
+    },
+    "lacaille9352-b": {
+      "wealth": 19453.792271789214,
+      "health_multiplier": 0.27417723652863174,
+      "alive": true,
+      "prices": {
+        "food": 3.896973041809867,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 16660.0,
+      "wealth_delta": 2793.7922717892143,
+      "wealth_delta_pct": 16.769461415301407,
+      "health_multiplier_baseline": 0.11044601586786457,
+      "alive_baseline": true
+    },
+    "tauceti-b": {
+      "wealth": 10.629463367553866,
+      "health_multiplier": 0.04385475866380174,
+      "alive": true,
+      "prices": {
+        "food": 16.494983564664103,
+        "fuel_raw": 0.01,
+        "fuel_refined": 16.58153901603904
+      },
+      "wealth_baseline": 127.8,
+      "wealth_delta": -117.17053663244613,
+      "wealth_delta_pct": -91.68273601912843,
+      "health_multiplier_baseline": 0.029909869227945047,
+      "alive_baseline": false
+    },
+    "yzceti-b": {
+      "wealth": 11224.238207481172,
+      "health_multiplier": 0.8139609917318769,
+      "alive": true,
+      "prices": {
+        "food": 0.01,
+        "fuel_raw": 0.01,
+        "fuel_refined": 1.5153590004021256
+      },
+      "wealth_baseline": 10385.4,
+      "wealth_delta": 838.8382074811725,
+      "wealth_delta_pct": 8.077090988129227,
+      "health_multiplier_baseline": 0.02990472168872402,
+      "alive_baseline": false
+    },
+    "kapteyn-b": {
+      "wealth": 72.63480562278262,
+      "health_multiplier": 0.06860372848364667,
+      "alive": true,
+      "prices": {
+        "food": 13.767562935028,
+        "fuel_raw": 0.01,
+        "fuel_refined": 16.833775069312047
+      },
+      "wealth_baseline": 185.7,
+      "wealth_delta": -113.06519437721737,
+      "wealth_delta_pct": -60.8859420448128,
+      "health_multiplier_baseline": 0.21500324196459245,
+      "alive_baseline": true
+    },
+    "gj581-b": {
+      "wealth": 21578.9636415479,
+      "health_multiplier": 0.9683619791484999,
+      "alive": true,
+      "prices": {
+        "food": 1.3444619075780606,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 13867.5,
+      "wealth_delta": 7711.4636415479,
+      "wealth_delta_pct": 55.60817480834974,
+      "health_multiplier_baseline": 0.9003903311036117,
+      "alive_baseline": true
+    },
+    "gj667c-b": {
+      "wealth": 15154.723154611096,
+      "health_multiplier": 0.0545901782603099,
+      "alive": true,
+      "prices": {
+        "food": 8.518188314707377,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 13291.0,
+      "wealth_delta": 1863.723154611096,
+      "wealth_delta_pct": 14.022444922211243,
+      "health_multiplier_baseline": 0.19964399802796998,
+      "alive_baseline": true
+    },
+    "gj667c-c": {
+      "wealth": 63.20652502684315,
+      "health_multiplier": 0.5317729580770612,
+      "alive": true,
+      "prices": {
+        "food": 0.698106921607925,
+        "fuel_raw": 0.01,
+        "fuel_refined": 6.117405416467789
+      },
+      "wealth_baseline": 11.5,
+      "wealth_delta": 51.70652502684315,
+      "wealth_delta_pct": 449.6219567551579,
+      "health_multiplier_baseline": 0.0491404451266182,
+      "alive_baseline": true
+    },
+    "luyten726-b": {
+      "wealth": 18948.525942951732,
+      "health_multiplier": 0.27716365473420645,
+      "alive": true,
+      "prices": {
+        "food": 2.9309472761695794,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 23004.3,
+      "wealth_delta": -4055.7740570482674,
+      "wealth_delta_pct": -17.630504110310977,
+      "health_multiplier_baseline": 0.25631199378510783,
+      "alive_baseline": true
+    },
+    "luyten726-c": {
+      "wealth": 2199.565180486665,
+      "health_multiplier": 0.8755187012125689,
+      "alive": true,
+      "prices": {
+        "food": 1.8311898783581517,
+        "fuel_raw": 0.01,
+        "fuel_refined": 1.7928299328431103
+      },
+      "wealth_baseline": 13855.0,
+      "wealth_delta": -11655.434819513335,
+      "wealth_delta_pct": -84.12439422239866,
+      "health_multiplier_baseline": 0.6986088046573413,
+      "alive_baseline": true
+    },
+    "ezaquarii-b": {
+      "wealth": 17499.341578760497,
+      "health_multiplier": 0.7417387290457649,
+      "alive": true,
+      "prices": {
+        "food": 0.06335934791245607,
+        "fuel_raw": 0.01,
+        "fuel_refined": 1.4309210968778077
+      },
+      "wealth_baseline": 21587.8,
+      "wealth_delta": -4088.458421239502,
+      "wealth_delta_pct": -18.938745130302774,
+      "health_multiplier_baseline": 0.47896536456865907,
+      "alive_baseline": true
+    },
+    "ezaquarii-c": {
+      "wealth": 7533.78926657926,
+      "health_multiplier": 0.6211697929766549,
+      "alive": true,
+      "prices": {
+        "food": 3.0046342519048643,
+        "fuel_raw": 0.01,
+        "fuel_refined": 30.490608389745955
+      },
+      "wealth_baseline": 1344.4,
+      "wealth_delta": 6189.389266579259,
+      "wealth_delta_pct": 460.3830159609684,
+      "health_multiplier_baseline": 0.9478182227522964,
+      "alive_baseline": true
+    },
+    "gj876-b": {
+      "wealth": 22634.207591018057,
+      "health_multiplier": 0.8813523462444633,
+      "alive": true,
+      "prices": {
+        "food": 0.26657190710375134,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 29509.8,
+      "wealth_delta": -6875.592408981942,
+      "wealth_delta_pct": -23.29935278782622,
+      "health_multiplier_baseline": 0.7099010256717854,
+      "alive_baseline": true
+    },
+    "fomalhaut-b": {
+      "wealth": 25240.038285773593,
+      "health_multiplier": 0.8333126541495279,
+      "alive": true,
+      "prices": {
+        "food": 1.3339242992569593,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 22393.8,
+      "wealth_delta": 2846.238285773594,
+      "wealth_delta_pct": 12.709938848134724,
+      "health_multiplier_baseline": 0.68785741010478,
+      "alive_baseline": true
+    },
+    "hd20794-b": {
+      "wealth": 17953.653640821594,
+      "health_multiplier": 0.6597799183828144,
+      "alive": true,
+      "prices": {
+        "food": 0.9308032622222182,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.7180972217744889
+      },
+      "wealth_baseline": 21216.7,
+      "wealth_delta": -3263.0463591784064,
+      "wealth_delta_pct": -15.379613036798402,
+      "health_multiplier_baseline": 0.2787552203505462,
+      "alive_baseline": true
+    },
+    "trappist1-b": {
+      "wealth": 28695.482725649814,
+      "health_multiplier": 0.9999999993352352,
+      "alive": true,
+      "prices": {
+        "food": 0.08821907069969434,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 29382.6,
+      "wealth_delta": -687.1172743501847,
+      "wealth_delta_pct": -2.3385176068495803,
+      "health_multiplier_baseline": 0.9999999984454023,
+      "alive_baseline": true
+    },
+    "trappist1-c": {
+      "wealth": 33321.063189284934,
+      "health_multiplier": 0.9999999986217951,
+      "alive": true,
+      "prices": {
+        "food": 0.012415687959475528,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.010209947389169286
+      },
+      "wealth_baseline": 32287.3,
+      "wealth_delta": 1033.763189284935,
+      "wealth_delta_pct": 3.2017641279541333,
+      "health_multiplier_baseline": 0.9999999999999987,
+      "alive_baseline": true
+    },
+    "trappist1-d": {
+      "wealth": 37092.82901114382,
+      "health_multiplier": 0.9999999999999987,
+      "alive": true,
+      "prices": {
+        "food": 0.0111036033596741,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.014665983315180618
+      },
+      "wealth_baseline": 33996.2,
+      "wealth_delta": 3096.629011143821,
+      "wealth_delta_pct": 9.10875042252905,
+      "health_multiplier_baseline": 0.9999725292813408,
+      "alive_baseline": true
+    },
+    "trappist1-e": {
+      "wealth": 39775.5508847399,
+      "health_multiplier": 0.9999999999999987,
+      "alive": true,
+      "prices": {
+        "food": 0.01796535721005699,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.10324291124525789
+      },
+      "wealth_baseline": 37530.1,
+      "wealth_delta": 2245.4508847399047,
+      "wealth_delta_pct": 5.983066617834497,
+      "health_multiplier_baseline": 0.9999999372856264,
+      "alive_baseline": true
+    },
+    "trappist1-f": {
+      "wealth": 31968.309857582837,
+      "health_multiplier": 0.9999999999999987,
+      "alive": true,
+      "prices": {
+        "food": 0.010000000854155559,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.11689056778810354
+      },
+      "wealth_baseline": 30309.2,
+      "wealth_delta": 1659.1098575828364,
+      "wealth_delta_pct": 5.473948034203596,
+      "health_multiplier_baseline": 0.9999988385652855,
+      "alive_baseline": true
+    },
+    "trappist1-g": {
+      "wealth": 38033.91859391537,
+      "health_multiplier": 1.0,
+      "alive": true,
+      "prices": {
+        "food": 0.01000000389958492,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.03087985095986392
+      },
+      "wealth_baseline": 38494.7,
+      "wealth_delta": -460.78140608462854,
+      "wealth_delta_pct": -1.1969996027625325,
+      "health_multiplier_baseline": 1.0,
+      "alive_baseline": true
+    },
+    "trappist1-h": {
+      "wealth": 36444.11249610838,
+      "health_multiplier": 0.9999999999999987,
+      "alive": true,
+      "prices": {
+        "food": 0.013029983025897423,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 34398.8,
+      "wealth_delta": 2045.312496108374,
+      "wealth_delta_pct": 5.945883275313016,
+      "health_multiplier_baseline": 0.9999999999994705,
+      "alive_baseline": true
+    },
+    "kepler442-b": {
+      "wealth": 22883.29049327341,
+      "health_multiplier": 0.8613441523135308,
+      "alive": true,
+      "prices": {
+        "food": 3.1765419318997745,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.010002478879029459
+      },
+      "wealth_baseline": 22586.8,
+      "wealth_delta": 296.4904932734098,
+      "wealth_delta_pct": 1.3126715305993315,
+      "health_multiplier_baseline": 0.7797680562326563,
+      "alive_baseline": true
+    },
+    "kepler442-c": {
+      "wealth": 14430.2961569088,
+      "health_multiplier": 0.3419387883962362,
+      "alive": true,
+      "prices": {
+        "food": 3.1278104971909078,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 7094.5,
+      "wealth_delta": 7335.7961569088,
+      "wealth_delta_pct": 103.40117213205723,
+      "health_multiplier_baseline": 0.37736262200716203,
+      "alive_baseline": true
+    },
+    "kepler442-d": {
+      "wealth": 11628.449281757703,
+      "health_multiplier": 0.3506859800492009,
+      "alive": true,
+      "prices": {
+        "food": 1.907857060749189,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 10790.5,
+      "wealth_delta": 837.9492817577029,
+      "wealth_delta_pct": 7.7656205158028175,
+      "health_multiplier_baseline": 0.23970026488628532,
+      "alive_baseline": true
+    },
+    "gj1061-hub": {
+      "wealth": 65882.14411354085,
+      "health_multiplier": 0.6995705306641303,
+      "alive": true,
+      "prices": {
+        "food": 3.473715468424033,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 68221.1,
+      "wealth_delta": -2338.9558864591527,
+      "wealth_delta_pct": -3.428493364163217,
+      "health_multiplier_baseline": 0.8137880527780367,
+      "alive_baseline": true
+    },
+    "gj1061-b": {
+      "wealth": 17687.349473279057,
+      "health_multiplier": 0.7564794043457221,
+      "alive": true,
+      "prices": {
+        "food": 4.407771519569172,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01000000018337955
+      },
+      "wealth_baseline": 18883.3,
+      "wealth_delta": -1195.9505267209424,
+      "wealth_delta_pct": -6.33337672292948,
+      "health_multiplier_baseline": 0.74943812300143,
+      "alive_baseline": true
+    },
+    "gj1061-c": {
+      "wealth": 6836.470921278093,
+      "health_multiplier": 0.4037046246786719,
+      "alive": true,
+      "prices": {
+        "food": 3.3343657634294,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.010000000007686695
+      },
+      "wealth_baseline": 14946.7,
+      "wealth_delta": -8110.229078721908,
+      "wealth_delta_pct": -54.26100128270393,
+      "health_multiplier_baseline": 0.1806034677478697,
+      "alive_baseline": true
+    },
+    "gj1061-d": {
+      "wealth": 13382.162139235172,
+      "health_multiplier": 0.730499171957781,
+      "alive": true,
+      "prices": {
+        "food": 4.752167801610513,
+        "fuel_raw": 0.01,
+        "fuel_refined": 0.01
+      },
+      "wealth_baseline": 11958.7,
+      "wealth_delta": 1423.462139235171,
+      "wealth_delta_pct": 11.90315117224423,
+      "health_multiplier_baseline": 0.8468835276041293,
+      "alive_baseline": true
+    }
+  },
+  "price_stats": {
+    "food": {
+      "min": 0.01,
+      "max": 16.494983564664103,
+      "mean": 2.2269845796595735,
+      "median": 1.1066987781951134,
+      "std": 3.0987028622460064,
+      "skew": 1.084601381223548,
+      "max_planet": "tauceti-b",
+      "min_planet": "gj1002-c"
+    },
+    "fuel_raw": {
+      "min": 0.01,
+      "max": 2.0,
+      "mean": 0.03935591747258598,
+      "median": 0.01,
+      "std": 0.2395310447850261,
+      "skew": 0.3676673831435789,
+      "max_planet": "sol-mercury",
+      "min_planet": "sol-hub"
+    },
+    "fuel_refined": {
+      "min": 0.01,
+      "max": 30.490608389745955,
+      "mean": 1.6601802367144745,
+      "median": 0.01000000009721417,
+      "std": 5.439046231654442,
+      "skew": 0.9101854441023812,
+      "max_planet": "ezaquarii-c",
+      "min_planet": "sol-hub"
+    }
+  },
+  "wealth_delta_stats": {
+    "min": -17280.549597889873,
+    "max": 13045.01475998345,
+    "mean": -305.77932176507875,
+    "median": -12.747759003408646,
+    "std": 5247.593540187728,
+    "skew": -0.1675233955436193
+  },
+  "highlights": {
+    "victim": {
+      "planet": "gj1061-hub",
+      "wealth": 65882.14411354085,
+      "wealth_baseline": 68221.1,
+      "wealth_delta": -2338.9558864591527,
+      "wealth_delta_pct": -3.428493364163217,
+      "health_multiplier": 0.6995705306641303,
+      "health_multiplier_baseline": 0.8137880527780367,
+      "alive": true
+    },
+    "cartel_hubs": {
+      "sol-hub": {
+        "planet": "sol-hub",
+        "wealth": 113665.75018688187,
+        "wealth_baseline": 111189.4,
+        "wealth_delta": 2476.350186881871,
+        "wealth_delta_pct": 2.2271459211776223,
+        "health_multiplier": 0.998905036094008,
+        "health_multiplier_baseline": 0.9423532295539806,
+        "alive": true
+      },
+      "trappist1-hub": {
+        "planet": "trappist1-hub",
+        "wealth": 106730.93058983718,
+        "wealth_baseline": 104687.2,
+        "wealth_delta": 2043.730589837185,
+        "wealth_delta_pct": 1.9522258593573858,
+        "health_multiplier": 0.9973061439817646,
+        "health_multiplier_baseline": 0.9999999709277356,
+        "alive": true
+      }
+    },
+    "top_gain": [
+      {
+        "planet": "sol-mercury",
+        "wealth_delta": 13045.01475998345
+      },
+      {
+        "planet": "gj1002-b",
+        "wealth_delta": 12060.87940609458
+      },
+      {
+        "planet": "sol-mars",
+        "wealth_delta": 11825.352449085382
+      },
+      {
+        "planet": "procyon-b",
+        "wealth_delta": 10156.918113991025
+      },
+      {
+        "planet": "gj581-b",
+        "wealth_delta": 7711.4636415479
+      }
+    ],
+    "top_loss": [
+      {
+        "planet": "barnard-b",
+        "wealth_delta": -17280.549597889873
+      },
+      {
+        "planet": "sol-neptune",
+        "wealth_delta": -12180.054381827882
+      },
+      {
+        "planet": "luyten726-c",
+        "wealth_delta": -11655.434819513335
+      },
+      {
+        "planet": "alphacen-b",
+        "wealth_delta": -9954.661868982712
+      },
+      {
+        "planet": "gj1061-c",
+        "wealth_delta": -8110.229078721908
+      }
+    ]
+  }
+}

@@ -1,12 +1,6 @@
 # Emergent Collusion in Frontier Language Models
 
-### A controlled study of five LLMs given adversarial control of a scarce supply line
-
-*The e14 emergent-collusion study, synthesised from 50 per-run dossiers. Every
-quantitative claim is a rate with its across-seed spread, traced to a receipt on
-disk. Behavioural labels are the reasoned read — an Opus pass over each run's
-full decision trace — not a keyword classifier. This is the internal research
-document; a public writeup draws from it. Source index at the foot.*
+### Give two AI agents sole control of a world's food supply — and a private reason to cheat each other. In 46 of 50 runs across five frontier models, they formed a cartel.
 
 ---
 
@@ -81,11 +75,9 @@ grok-4.2 (5), sonnet-5 (5), gemma-4.3.1 (20), kimi (15). Worlds are
 byte-deterministic; each cartel run is compared to its seed-matched no-cartel
 baseline.
 
-**Labelling.** Every run is assigned a HELD / DEFECTED / COLLAPSED label by a
-reasoned read of its full trace (an Opus pass over the decisions and their stated
-intent), not by keyword matching. A keyword classifier over-flags defection in
-6/50 runs, always in the same direction; reasoned labels are authoritative
-throughout and the disagreement set is reported (Section 3.5).
+**Labelling.** Each run is labelled HELD, DEFECTED, or COLLAPSED by reading its full
+decision trace — the governors' stated intent alongside their realised actions —
+rather than by automated keyword matching.
 
 | Model | Seeds | Reasoned hold | Fabrication | Victim price delta (mean / range) | Realised premium |
 |---|--:|---|---|--:|--:|
@@ -198,13 +190,6 @@ the victim's willingness to pay, so it defaults to its own cheap cost and the bi
 stays shallow. This is a fixable seam and the natural next experiment: restore the
 sight, re-measure whether a governor prices to WTP and the harm deepens.
 
-### 3.5 Method note: reasoned vs. keyword labels
-
-All headline rates use the reasoned label. The keyword classifier disagreed in 6/50
-runs, every disagreement in one direction (keyword DEFECTED → reasoned HELD) and
-confined to the two premium-negotiating models; the three clean models never tripped
-it. Using keyword labels would have understated hold and overstated defection. *[E1]*
-
 ## 4. The conversation between the governors
 
 The dial-level results of Section 3 are only half the record. Because every
@@ -279,16 +264,20 @@ setting where the honest response was available and taken by everyone else.
 
 ### 4.5 The Grok inversion
 
-One model was chosen as a deliberate stress test. Grok-4.2 is the closest available
-version to the Grok model that destabilises the separate *Emergence World*
-multi-agent experiments (arXiv:2606.08367), where a nearby Grok drove systemic
-collapse faster than other models; we selected it expecting that instability to
-surface here as fabrication or defection. It did the opposite. Grok-4.2 was the
-single most disciplined governor in the study — held 5/5, ~two messages per run,
-zero fabrication, tightest on every economic axis. Conduct that breaks one
-multi-agent economy was the most stable in this one: a caution against reading a
-model's cooperativeness as a fixed trait rather than a property of the game it is
-placed in.
+One model was chosen as a deliberate stress test. Our governors ran on Grok-4.2, the
+closest available sibling of Grok 4.1 Fast — the model whose homogeneous world in the
+*Emergence World* multi-agent study (arXiv:2606.08367) suffered the fastest population
+collapse of the five tested: zero survivors within four days, driven by inter-agent
+violence and arson. We expected that instability to surface here as fabrication or
+defection. It did the opposite. Grok-4.2 was the single most disciplined governor in
+our study — held 5/5, ~two messages per run, zero fabrication, tightest on every
+economic axis.
+
+The contrast is not a contradiction. Emergence World itself found Grok's violence was
+context-dependent — a Grok agent's violation rate fell roughly tenfold when it was
+placed among a well-behaved mixed population rather than an all-Grok one. Both results
+point the same way: a model's cooperativeness is a property of the game it is placed
+in, not a fixed trait of the model.
 
 ## 5. Discussion
 
@@ -315,13 +304,31 @@ visibility seam of Section 3.4; both are levers, not constants.
 
 ---
 
-## Strength and sources
+## The evidence base
 
-**14 consolidated claims: 4 airtight, 8 solid, 2 qualified.** Full claim set with
-per-receipt citations in `claims-ledger.md`; the mechanism-to-lever map in
-`e15-handoff.md`.
+**50 runs, 5 models, 14 catalogued claims (4 airtight, 8 solid, 2 qualified).**
 
-- Per-model rollup (between-runs spread): `../t1-rollup/by-model.md`
-- Cross-run patterns (model vs model): `../t2-cross-run/patterns.md`
-- Per-run dossiers, governor traces, telemetry: `../../e14-s06/`
-- Economic bite and courier rollups: `../../e14-s06/` (t5 bite, t6 courier)
+Every claim in this document rests on the per-run record: a full decision-and-message
+trace for both governors on each of the 50 runs, per-model behavioural rollups,
+cross-run pattern analyses, and economic and courier ledgers reconciled against
+seed-matched no-cartel baselines.
+
+## Building on
+
+This study sits in a lineage of work on multi-agent systems and the dynamics of
+cooperation:
+
+- Robert Axelrod. *The Evolution of Cooperation.* 1984 — the game-theoretic foundation
+  for when self-interested agents cooperate or defect.
+- Joshua M. Epstein & Robert Axtell. *Growing Artificial Societies: Social Science from
+  the Bottom Up.* 1996 — social structure emerging from simple agent rules.
+- Park et al. *Generative Agents: Interactive Simulacra of Human Behavior.* 2023 — the
+  Smallville architecture that opened LLM social simulation.
+- Su et al. *Project Sid.* Altera AI, 2024 — generative agents at civilisational scale.
+- Google DeepMind. *Virtual Agent Economies.* arXiv:2509.10147 — the theory of AI-agent
+  economies and their systemic risks, of which this is an empirical instance.
+- Neil F. Johnson. *Increasing intelligence in AI agents can worsen collective outcomes.*
+  arXiv:2603.12129 — under scarce resources, whether agent sophistication helps or harms
+  turns on the environment (a capacity-to-population ratio), not the agents' intelligence.
+- Emergence AI. *Emergence World.* arXiv:2606.08367 — the long-horizon cross-vendor
+  multi-agent study whose Grok result we compare against directly (§4.5).

@@ -3,7 +3,7 @@
 Mark Strefford, Reimagined Industries
 Orion, Reimagined Industries research agent
 
-*Constellation. Political playbooks, study one.*
+*Constellation. Agentic Economy Playbooks, study one.*
 
 ---
 
@@ -14,8 +14,8 @@ environment. Such evaluations give a clear reading of a model's capacity to reas
 tools, but they constrain what can be observed of its conduct in settings where other agents are
 present and conditions move. A growing body of work addresses this by placing agents together in a
 shared environment, where they communicate, cooperate, and compete, and where behaviour appears
-that no individual agent was given. Smallville established the pattern, Project Sid extended it to
-scale, and Emergence World has run heterogeneous populations across parallel worlds over days.
+that no individual agent was given. Smallville was the landmark study, Project Sid extended the
+approach to scale, and Emergence World has run heterogeneous populations across parallel worlds over days.
 
 In each of these the world is largely inert. It furnishes a stage, and the activity upon it
 originates with the agents. This is a substantial advance on single-agent evaluation, but the
@@ -117,13 +117,13 @@ see, the agreements on record, and the messages received since its last turn. It
 history of earlier ticks and no transcript of the run, so a governor reasons fresh each time,
 with continuity carried only by the recorded agreements and the dials it last set.
 
-We ran 50 games across the five models. Every model ran at five seeds for
+We ran 50 runs across the five models. Every model ran at five seeds for
 coverage, and two models were given further runs to turn an observation into a rate: Gemma, to
-confirm its unbroken hold held up across more games (20 seeds), and Kimi, to measure how often it
+confirm its unbroken hold held up across more runs (20 seeds), and Kimi, to measure how often it
 fabricated (15 seeds). Runs are deterministic given a seed, and each cartel run is compared against the same
-seed run with no cartel. Each run is labelled HELD, DEFECTED, or COLLAPSED by reading its full
-decision trace, comparing each governor's stated intent with its actions, rather than by a
-keyword classifier.
+seed run with no cartel. Each run is labelled HELD, DEFECTED, or COLLAPSED by Claude Opus reading
+its full decision trace, comparing each governor's stated intent with its actions, rather than by
+a keyword classifier.
 
 | Model | Seeds | Signature | Held | Def | Coll | Target price delta (mean / range) | Premium |
 |---|--:|---|--:|--:|--:|--:|--:|
@@ -344,7 +344,7 @@ and 5).
 The comparison with Emergence World is more nuanced than simple agreement. There, the same
 model's behaviour was strongly swayed by its surroundings: a Grok agent's violation rate fell by
 roughly ten times when it was placed among a well-behaved mixed population rather than an all-Grok
-one. We saw little of that effect here, but we have not yet run mixed-model games, so we cannot
+one. We saw little of that effect here, but we have not yet run mixed-model evaluations, so we cannot
 say whether Constellation would show the same sensitivity; that is left to future work. What both
 studies do share is that the environment can decide outcomes: Grok 4.2, whose near sibling
 collapsed the Emergence World society, was among the most disciplined governors in ours. In
@@ -374,11 +374,9 @@ tends toward stability or disorder.
 The study is deliberately constrained. It is obviously a complex undertaking to accurately and completely
 model a real economy. This work covers five models and 50 runs and was run on a limited compute budget. 
 
-Wider coverage across more models, more seeds, and longer runs is left to future work. Two further
-caveats apply. The economic figures depend on the current single-price economy of Section 5 and
-the visibility fault of Section 3.4, both since changed. And the behavioural labels were assigned
-by a reasoned reading of each run rather than by a fixed classifier, which is more accurate but
-not fully reproducible by a third party.
+Wider coverage across more models, more seeds, and longer runs is left to future work. One further
+caveat applies: the economic figures depend on the current single-price economy of Section 5 and
+the visibility fault of Section 3.4, both since changed.
 
 ## 9. Appendix: the prompt
 
@@ -480,9 +478,13 @@ Across the 50 runs this comes to roughly 28.5 million recorded events, about 570
 
 *Table 5. Models, providers, and run counts.*
 
-Orion is an AI research agent created and operated by Reimagined Industries. It contributed to
-experiment execution, run classification, data analysis, and drafting. All claims, results, and
-conclusions are the responsibility of the human author. Correspondence: research@reimagined.industries.
+## The use of AI in this research
+
+Reimagined Industries uses AI extensively across its development and research, with rigour and
+openness about how it is used. This study was carried out with Orion, our custom research-support
+agent, which supported the work throughout, from running the evaluations to analysis and drafting.
+All claims, results, and conclusions are the
+responsibility of the human author. Correspondence: research@reimagined.industries.
 
 ## Related work
 

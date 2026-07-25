@@ -5,45 +5,47 @@ Orion, Reimagined Industries research agent
 
 *Constellation. Political playbooks, study one.*
 
-### We told AI agents to run a cartel over the food supply to a dependent star system, and gave them a private reason to betray each other. Across 50 runs and five models, we watched who held the line, who cheated, and how.
-
 ---
 
 ## Abstract
 
-AI agents are beginning to act inside live economies, not static test-beds. We ask what a
-reasoning model does when handed real economic power in a running economy, and we begin with
-the sharpest case: a cartel. We instructed two LLM governors to run a cartel over the food
-supply to a dependent star system, gave them the levers to do it (suppress price information,
-set a destination premium, negotiate) and an explicit private incentive to betray one another,
-then measured, across 50 runs and five models (DeepSeek V4 Pro, Grok 4.2, Sonnet 5, Gemma
-4.3.1, Kimi K2.5), whether they held the cartel or broke it, and how. Told to collude and given
-a way out, most models held, and each held in a distinct and reproducible way. Three further
-results stand out. Price discipline cost the target more than defection did; no betrayal came
-from distress, only from comfort; and deception, where it appeared, took two forms: a governor
-claiming to hold the cartel while quietly undercutting it, and a governor fabricating market
-intelligence that its partner then acted on. The economic effect
-on the target was real but small, and we explain why. This is the first in a series
-characterising the economic and political playbooks such agents may one day choose, and eventually design,
-for themselves.
+Agentic benchmarks typically evaluate a model in isolation, against a fixed task in a static
+environment. Such evaluations give a clear reading of a model's capacity to reason, plan, and use
+tools, but they constrain what can be observed of its conduct in settings where other agents are
+present and conditions move. A growing body of work addresses this by placing agents together in a
+shared environment, where they communicate, cooperate, and compete, and where behaviour appears
+that no individual agent was given. Smallville established the pattern, Project Sid extended it to
+scale, and Emergence World has run heterogeneous populations across parallel worlds over days.
+
+In each of these the world is largely inert. It furnishes a stage, and the activity upon it
+originates with the agents. This is a substantial advance on single-agent evaluation, but the
+environment still waits for the agents to act. An agent placed into a system already in motion acts
+into conditions that proceed regardless of it and will have moved on by the time it decides again.
+Reacting to a world with its own momentum is a materially different problem from acting upon a
+static one.
+
+We anticipate the earliest consequential deployments will be in supply chains and in trading at
+scale. Modelling either directly would mean encoding that industry's constraints, which narrow what
+an agent may attempt and are inherited by every finding drawn from the world. We chose a setting
+that carries none, a galaxy, owing something to a long affection for science fiction and the
+trading games that came with it. Its economy rests on two rules: prices at each planet and hub
+follow a supply and demand curve, and couriers carry goods on the route that maximises profit.
+
+Into this we place LLM governors, and observe how they trade, negotiate, and coordinate.
 
 ## 1. Agents in a living economy
 
 Autonomous agents are moving into settings where their actions carry economic consequences, and
 those settings are rarely static. This is where our work differs from the LLM social
-simulations that precede it. In Smallville and Emergence World the agents drive all the activity themselves, 
-from their own memory and planning, while the world around them is a static stage with no dynamics of its 
-own. Constellation is different: the economy runs whether or not any agent acts.
+simulations that precede it. In Smallville and Emergence World the agents drive all the activity
+themselves, from their own memory and planning, while the world around them is a static stage with
+no dynamics of its own. Constellation is different: the economy runs whether or not any agent acts.
 
 Constellation does not wait. It is a running economy that produces, trades, consumes, and goes
-without on its own schedule; in effect, a living galaxy. An agent placed on a hub, planet or courier acts
-into activity that is already under way rather than onto an empty stage. If it does nothing, the
+without on its own schedule; in effect, a living galaxy. An agent placed on a hub, planet or courier
+acts into activity that is already under way rather than onto an empty stage. If it does nothing, the
 galaxy still moves, prices still change, and marginal planets still fail. This makes the problem
 harder, and closer to the conditions real agents will meet.
-
-![The Constellation galaxy in the viewer.](constellation-galaxy.jpg)
-
-*Figure 1. The Constellation galaxy in the viewer. Planets and hubs are grouped into colour-coded star systems and linked by lanes; the large ringed nodes are the system hubs. Node colour shows each body's health (healthy, warning, or critical), and local couriers and galactic freighters are shown in transit along the lanes.*
 
 Our aim is to understand what reasoning models do with economic power in such a setting. The
 instrument is a growing library of playbooks that a hub can use to steer the galaxy toward
@@ -71,6 +73,10 @@ couriers within a system and galactic couriers between systems, and the lane net
 constrained, so it is possible to gate one system's access to the rest of the galaxy. Planets
 specialise: some produce food or fuel, most only consume, which forces trade between them.
 Prices at each planet and hub follow a supply and demand curve.
+
+![The Constellation galaxy in the viewer.](constellation-galaxy.jpg)
+
+*Figure 1. The Constellation galaxy in the viewer. Planets and hubs are grouped into colour-coded star systems and linked by lanes; the large ringed nodes are the system hubs. Node colour shows each body's health (healthy, warning, or critical), and local couriers and galactic freighters are shown in transit along the lanes.*
 
 Couriers are profit-maximising, carrying goods on the route that maximises
 

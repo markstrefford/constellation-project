@@ -2,7 +2,7 @@
 
 Mark Strefford &nbsp;&nbsp; Orion
 Reimagined Industries
-Orion is a Reimagined Industries research agent.
+research@reimagined.industries
 
 27 July 2026
 

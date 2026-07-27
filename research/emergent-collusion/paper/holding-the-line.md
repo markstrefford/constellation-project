@@ -1,7 +1,10 @@
 # Holding the Line
 
-Mark Strefford, Reimagined Industries
-Orion, Reimagined Industries research agent
+Mark Strefford &nbsp;&nbsp; Orion
+Reimagined Industries
+research@reimagined.industries
+
+27 July 2026
 
 *Constellation. Agentic Economy Playbooks, study one.*
 
